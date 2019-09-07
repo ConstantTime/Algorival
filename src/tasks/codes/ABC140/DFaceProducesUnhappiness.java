@@ -1,4 +1,4 @@
-package tasks.codes;
+package tasks.codes.ABC140;
 
 import tasks.fastIO.InputReader;
 import tasks.fastIO.OutputWriter;
