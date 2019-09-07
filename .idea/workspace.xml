@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68db5b80-14f8-4160-922f-73a4159deafe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="68db5b80-14f8-4160-922f-73a4159deafe" name="Default Changelist" comment="Atcoder Beginner Contest 140 added">
+      <change afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CheckerClass.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaskClass.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCaseClass.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoderTaskClass.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoderTestCaseClass.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chelper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/codes/A - Password.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/codes/APassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/codes/B - Buffet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/codes/BBuffet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/codes/C - Maximal Value.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/codes/CMaximalValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/codes/D - Face Produces Unhappiness.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/codes/D - Various Sushi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/codes/D. Coloring Edges.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/codes/DColoringEdges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/codes/DFaceProducesUnhappiness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/codes/DVariousSushi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/output/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -78,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tasks/codes/DFaceProducesUnhappiness.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="204">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -120,10 +139,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -175,13 +195,6 @@
               <item name="TasksAndAlgos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TasksAndAlgos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TasksAndAlgos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="codes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TasksAndAlgos" type="b2602c69:ProjectViewProjectNode" />
@@ -283,7 +296,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567837906381</updated>
       <workItem from="1567837910204" duration="1201000" />
-      <workItem from="1567839136967" duration="8345000" />
+      <workItem from="1567839136967" duration="8500000" />
     </task>
     <task id="LOCAL-00001" summary="minor force push">
       <created>1567838036339</created>
@@ -306,17 +319,24 @@
       <option name="project" value="LOCAL" />
       <updated>1567849262564</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Atcoder Beginner Contest 140 added">
+      <created>1567864803137</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567864803137</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9546000" />
+    <option name="totallyTimeSpent" value="9701000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28016645" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13557047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,16 +344,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Duplicates" weight="0.329429" />
-      <window_info anchor="bottom" id="Messages" weight="0.329429" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.329429" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34562212" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37190083" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932885" weight="0.329429" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932885" weight="0.30307466" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932885" weight="0.329429" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.329429" />
@@ -355,7 +375,8 @@
     <MESSAGE value="minor force push" />
     <MESSAGE value="minor force push - 2" />
     <MESSAGE value="Triple generic added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Triple generic added" />
+    <MESSAGE value="Atcoder Beginner Contest 140 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atcoder Beginner Contest 140 added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/c++/math/Factors_number.cpp">
@@ -473,10 +494,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chelper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tasks/codes/DFaceProducesUnhappiness.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="204">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>
