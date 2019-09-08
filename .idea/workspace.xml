@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68db5b80-14f8-4160-922f-73a4159deafe" name="Default Changelist" comment="Atcoder Beginner Contest 140 added">
-      <change afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CheckerClass.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskClass.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCaseClass.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoderTaskClass.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoderTestCaseClass.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chelper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/codes/A - Password.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/codes/APassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/codes/B - Buffet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/codes/BBuffet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/codes/C - Maximal Value.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/codes/CMaximalValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/codes/D - Face Produces Unhappiness.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/codes/D - Various Sushi.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/codes/D. Coloring Edges.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/codes/DColoringEdges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/codes/DFaceProducesUnhappiness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/codes/DVariousSushi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/output/Main.java" afterDir="false" />
+    <list default="true" id="68db5b80-14f8-4160-922f-73a4159deafe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/java/Trie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/output/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/output/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,64 +24,41 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-              <folding>
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#795#796#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tasks/codes/DVariousSushi.java">
+        <entry file="file://$PROJECT_DIR$/src/tasks/codes/ABC140/DVariousSushi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tasks/codes/APassword.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tasks/fastIO/InputReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="237" column="17" selection-start-line="237" selection-start-column="17" selection-end-line="237" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tasks/codes/BBuffet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="136">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tasks/codes/DFaceProducesUnhappiness.java">
+        <entry file="file://$PROJECT_DIR$/src/java/Trie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="345">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+                <element signature="e#1616#1617#0" expanded="true" />
+                <element signature="e#1650#1651#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tasks/output/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -131,19 +91,24 @@
         <option value="$PROJECT_DIR$/src/tasks/fastIO/OutputWriter.java" />
         <option value="$PROJECT_DIR$/src/java/generics/TripleGenericWithComparator.java" />
         <option value="$PROJECT_DIR$/src/tasks/codes/DColoringEdges.java" />
-        <option value="$PROJECT_DIR$/src/tasks/codes/DVariousSushi.java" />
         <option value="$PROJECT_DIR$/src/tasks/codes/APassword.java" />
         <option value="$PROJECT_DIR$/src/tasks/codes/BBuffet.java" />
         <option value="$PROJECT_DIR$/src/tasks/codes/CMaximalValue.java" />
         <option value="$PROJECT_DIR$/src/tasks/codes/DFaceProducesUnhappiness.java" />
+        <option value="$PROJECT_DIR$/src/tasks/codes/DVariousSushi.java" />
+        <option value="$PROJECT_DIR$/src/tasks/codes/ABC140/DVariousSushi.java" />
+        <option value="$PROJECT_DIR$/src/tasks/codes/ChefDesignedANetwork.java" />
+        <option value="$PROJECT_DIR$/src/tasks/codes/BobAndSubarray.java" />
+        <option value="$PROJECT_DIR$/src/java/TrieNode.java" />
+        <option value="$PROJECT_DIR$/src/java/trie.java" />
+        <option value="$PROJECT_DIR$/src/java/Trie.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -153,7 +118,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,14 +152,14 @@
               <item name="TasksAndAlgos" type="b2602c69:ProjectViewProjectNode" />
               <item name="TasksAndAlgos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TasksAndAlgos" type="b2602c69:ProjectViewProjectNode" />
               <item name="TasksAndAlgos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="codes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TasksAndAlgos" type="b2602c69:ProjectViewProjectNode" />
@@ -207,7 +172,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,10 +183,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="java" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Semester 7\PLACEMENTS\TasksAndAlgos\c++" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Semester 7\PLACEMENTS\TasksAndAlgos\src\tasks\codes\ABC140" />
       <recent name="E:\Semester 7\PLACEMENTS\TasksAndAlgos" />
     </key>
   </component>
@@ -237,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Task.D - Face Produces Unhappiness">
+  <component name="RunManager" selected="Task.Bob and Subarray">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="TasksAndAlgos" />
@@ -249,38 +218,56 @@
       </method>
     </configuration>
     <configuration name="A - Password" type="Task" factoryName="Task">
-      <taskConf>src/tasks/codes/A - Password.json</taskConf>
+      <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="B - Buffet" type="Task" factoryName="Task">
-      <taskConf>src/tasks/codes/B - Buffet.json</taskConf>
+      <taskConf />
+      <method v="2">
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="Bob and Subarray" type="Task" factoryName="Task">
+      <taskConf>src/tasks/codes/Bob and Subarray.json</taskConf>
       <method v="2">
         <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="C - Maximal Value" type="Task" factoryName="Task">
-      <taskConf>src/tasks/codes/C - Maximal Value.json</taskConf>
+      <taskConf />
+      <method v="2">
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="Chef Designed a Network" type="Task" factoryName="Task">
+      <taskConf>src/tasks/codes/Chef Designed a Network.json</taskConf>
       <method v="2">
         <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="D - Face Produces Unhappiness" type="Task" factoryName="Task">
-      <taskConf>src/tasks/codes/D - Face Produces Unhappiness.json</taskConf>
+      <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="D - Various Sushi" type="Task" factoryName="Task">
-      <taskConf>src/tasks/codes/D - Various Sushi.json</taskConf>
+      <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="D. Coloring Edges" type="Task" factoryName="Task">
-      <taskConf>src/tasks/codes/D. Coloring Edges.json</taskConf>
+      <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
@@ -296,7 +283,8 @@
       <option name="presentableId" value="Default" />
       <updated>1567837906381</updated>
       <workItem from="1567837910204" duration="1201000" />
-      <workItem from="1567839136967" duration="8500000" />
+      <workItem from="1567839136967" duration="8747000" />
+      <workItem from="1567951215616" duration="2912000" />
     </task>
     <task id="LOCAL-00001" summary="minor force push">
       <created>1567838036339</created>
@@ -326,28 +314,40 @@
       <option name="project" value="LOCAL" />
       <updated>1567864803137</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Atcoder Beginner Contest 140 added">
+      <created>1567864948221</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567864948221</updated>
+    </task>
+    <task id="LOCAL-00006" summary="minor refractor">
+      <created>1567865072869</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567865072869</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9701000" />
+    <option name="totallyTimeSpent" value="12860000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13557047" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.120665744" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Duplicates" weight="0.329429" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.329429" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37190083" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37188873" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -357,6 +357,8 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932885" weight="0.329429" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Duplicates" order="12" weight="0.329429" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.329429" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -376,7 +378,8 @@
     <MESSAGE value="minor force push - 2" />
     <MESSAGE value="Triple generic added" />
     <MESSAGE value="Atcoder Beginner Contest 140 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atcoder Beginner Contest 140 added" />
+    <MESSAGE value="minor refractor" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor refractor" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/c++/math/Factors_number.cpp">
@@ -386,24 +389,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/java/generics/PairGenericWithComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/temp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -414,7 +404,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/DColoringEdges.java">
+    <entry file="file://$PROJECT_DIR$/src/tasks/codes/ABC140/DColoringEdges.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
@@ -432,62 +422,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/output/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/generics/TripleGenericWithComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/DVariousSushi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/APassword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/fastIO/InputReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="237" column="17" selection-start-line="237" selection-start-column="17" selection-end-line="237" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/BBuffet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/CMaximalValue.java">
+    <entry file="file://$PROJECT_DIR$/src/tasks/codes/ABC140/CMaximalValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
@@ -501,10 +436,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/DFaceProducesUnhappiness.java">
+    <entry file="file://$PROJECT_DIR$/src/tasks/codes/temp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/codes/ABC140/APassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/fastIO/InputReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3791">
+          <caret line="237" column="17" selection-start-line="237" selection-start-column="17" selection-end-line="237" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/codes/ABC140/BBuffet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/codes/ABC140/DFaceProducesUnhappiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/codes/ChefDesignedANetwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/codes/BobAndSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/output/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/generics/TripleGenericWithComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/codes/ABC140/DVariousSushi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/TrieNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1650#1651#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
