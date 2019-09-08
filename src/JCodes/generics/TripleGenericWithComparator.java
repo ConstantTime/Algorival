@@ -1,4 +1,4 @@
-package java.generics;
+package JCodes.generics;
 
 public class TripleGenericWithComparator {
     class pair<T, W , X> implements Comparable<TripleGenericWithComparator>{

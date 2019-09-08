@@ -1,7 +1,7 @@
-package java.generics;
+package JCodes.generics;
 
 public class PairGenericWithComparator {
-    class pair<T, W> implements Comparable<pair>{
+    public static class pair<T, W> implements Comparable<pair>{
         private T fi;
         private W se;
 
