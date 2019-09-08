@@ -5,7 +5,7 @@ import JCodes.generics.PairGenericWithComparator;
 import java.util.Stack;
 import java.util.Vector;
 
-public class LeetCodeProblems {
+public class Solution {
     public static Vector< Integer > nextGreaterDistance(int[] T) {
         Vector < Integer > ans = new Vector<>();
 

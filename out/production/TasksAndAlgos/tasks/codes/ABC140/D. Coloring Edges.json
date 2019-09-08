@@ -1,0 +1,39 @@
+{
+  "name" : "D. Coloring Edges",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4 5\n1 2\n1 3\n3 4\n2 4\n1 4\n",
+    "output" : "1\n1 1 1 1 1 \n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 3\n1 2\n2 3\n3 1\n",
+    "output" : "2\n1 1 2 \n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/tasks/codes",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "tasks.codes.DColoringEdges",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.09.07",
+  "contestName" : "Educational Codeforces Round 72 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "tasks.fastIO.InputReader",
+  "outputClass" : "tasks.fastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
