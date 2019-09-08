@@ -44,6 +44,55 @@ public class Solution {
         return ans;
     }
 
+    public int mincostTickets(int[] days, int[] costs) {
+        int n = days.length;
+
+        int m = costs.length;
+
+        if(n == 0) return 0;
+
+        int [] dp = new int[366];
+
+        for(int i = 1 ; i < 366 ; i++) {
+            dp[i] = Integer.MAX_VALUE;
+        }
+        dp[0] = 0;
+        int didx = 0;
+
+        for(int i = 1 ; i < 366  ; i++){
+
+            if(didx >= days.length) break;
+            if(i < days[didx]) {
+                dp[i] = dp[i - 1];
+            }
+            else {
+                dp[i] = dp[i - 1] + costs[0];
+                int mindp = dp[i - 1];
+
+                for(int j = 1; j <= 7 ; j++) {
+                    if(i - j < 0) {
+                        break;
+                    }
+
+                    mindp = Math.min(mindp, dp[i - j]);
+                }
+
+                dp[i] = Math.min(dp[i], mindp + costs[1]);
+
+                for(int j = 7 ; j <= 30 ; j++) {
+                    if(i - j < 0) break;
+                    mindp = Math.min(mindp , dp[i - j]);
+                }
+
+                dp[i] = Math.min(dp[i] , mindp + costs[2]);
+                didx++;
+            }
+        }
+
+        return dp[days[days.length - 1]];
+    }
+
+
     public static void main(String[] args) {
         int [] T = new int[4];
 
