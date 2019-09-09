@@ -14,40 +14,31 @@ const ll mod = 1e9 + 7;
 const ld eps = 1e-6;
 const ld pi = 3.1415926535;
 
-int a[N];
-
 class Solution {
 public:
-    int candy(vector<int>& ratings) {
-      int n = ratings.size();
+    vector<int> selfDividingNumbers(int left, int right) {
+      vector < int > ans;
+      rep(i , left , right) {
+        string s = to_string(i);
 
-      if(n == 0) return 0;
-      int dp[n];
-
-      dp[0] = 1;      
-
-      for(int i = 1 ; i < n ; i++) {
-        if(ratings[i] > ratings[i - 1]) {
-          dp[i] = dp[i - 1] + 1;
+        bool flag = true;
+        for(auto j : s) {
+        
+          if(j == '0') {
+              flag = false;
+              break;
+          }
+          if(i % (j - '0') != 0) flag = false;
         }
-        else {
-          dp[i] = 1;
+
+        if(flag) {
+          ans.push_back(i); 
         }
-      }
+      }      
 
-      per(i , n - 2, 0) {
-        if(ratings[i] > ratings[i + 1]) {
-          dp[i] = max(dp[i] , dp[i + 1] + 1);
-        }
-      }
-
-      int sum = 0;
-      rep(i , 0 , n - 1) sum += dp[i];
-
-      return sum;
+      return ans;
     }
 };
-
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
