@@ -2,6 +2,8 @@ package JCodes.LeetCode;
 
 import JCodes.generics.PairGenericWithComparator;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Stack;
 import java.util.Vector;
 
@@ -90,6 +92,50 @@ public class Solution {
         }
 
         return dp[days[days.length - 1]];
+    }
+
+    public int wiggleMaxLength(int[] nums) {
+        int n = nums.length;
+
+        if(n == 0) return 0;
+
+        boolean[] inc = new boolean[n];
+        Arrays.fill(inc , false);
+
+        int [] dp = new int[n];
+        Arrays.fill(dp , 1);
+
+        for(int i = 1 ; i < n ; i++) {
+            for(int j = 0 ; j < i ; j++) {
+                if(j == 0) {
+                    if(nums[i] == nums[j]) continue;
+                    dp[i] = Math.max(dp[i] , dp[j] + 1);
+                    if(nums[i] > nums[j]) {
+                        inc[i] = true;
+                    }
+                    continue;
+                }
+                if(nums[j] < nums[i]) {
+                    if(inc[j] == false) {
+                        if(dp[j] + 1 > dp[i]) {
+                            dp[i] = dp[j] + 1;
+                            inc[i] = true;
+                        }
+
+                    }
+                }
+                else if(nums[j] > nums[i]) {
+                    if(inc[j] == true) {
+                        if(dp[j] + 1 > dp[i]) {
+                            dp[i] = dp[j] + 1;
+                            inc[i] = false;
+                        }
+                    }
+                }
+            }
+        }
+
+        return dp[n - 1];
     }
 
 
