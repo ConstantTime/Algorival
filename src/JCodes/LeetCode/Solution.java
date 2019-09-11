@@ -3,9 +3,7 @@ package JCodes.LeetCode;
 import JCodes.generics.PairGenericWithComparator;
 
 import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Stack;
-import java.util.Vector;
+import java.util.*;
 
 public class Solution {
     public static Vector< Integer > nextGreaterDistance(int[] T) {
@@ -45,6 +43,124 @@ public class Solution {
         }
         return ans;
     }
+
+    public List<Integer> majorityElement(int[] nums) {
+        int n = nums.length;
+
+        int cnt = n / 3;
+
+        int count1 = 0;
+        int count2 = 0;
+
+        List < Integer > ans = new ArrayList<>();
+
+        int first = Integer.MAX_VALUE;
+        int second = Integer.MAX_VALUE;
+        for(int i = 0 ; i < n ; i++) {
+            if(first == nums[i]) {
+                count1++;
+            }
+            else if(second == nums[i]) {
+                count2++;
+            }
+            else if(count1 == 0) {
+                count1++;
+                first = nums[i];
+            }
+            else if(count2 == 0) {
+                count2++;
+                second = nums[i];
+            }
+            else {
+                count1--;
+                count2--;
+            }
+        }
+
+        count1 = 0;
+        count2 = 0;
+        for(int i = 0 ; i < n ; i++) {
+            if(first == nums[i]) {
+                count1++;
+            }
+            else if(second == nums[i]) {
+                count2++;
+            }
+        }
+
+        if(count1 > cnt) {
+            ans.add(first);
+        }
+        if(count2 > cnt) {
+            ans.add(second);
+        }
+
+        return ans;
+    }
+
+    boolean [][] vis;
+    public boolean dfs(int i , int j , char[][] board , String word , int index) {
+        int n = board.length;
+        int m = board[0].length;
+        if(check(i , j , n , m) == false) {
+            return false;
+        }
+
+        if(vis[i][j] == true) return false;
+
+
+        if(word.charAt(index) != board[i][j]) {
+            return false;
+        }
+        if(index == word.length() - 1) {
+            return true;
+        }
+
+        vis[i][j] = true;
+
+        if(dfs(i + 1 , j , board , word , index + 1) ||
+                dfs(i , j + 1 , board , word , index + 1) ||
+                dfs(i - 1 , j , board , word , index + 1) ||
+                dfs(i , j - 1 , board , word , index + 1) ) {
+            return true;
+        }
+
+        vis[i][j] = false;
+        return false;
+    }
+
+    private boolean check(int i, int j, int n , int m) {
+        if(i >= 0 && i < n && j >= 0 && j < m) return true;
+        return false;
+    }
+
+    public boolean exist(char[][] board, String word) {
+
+        int n = board.length;
+        if (n == 0) {
+            if (word.equals("")) return true;
+            return false;
+        }
+
+        int m = board[0].length;
+
+        vis = new boolean[n][m];
+        for(int i = 0 ; i < n ; i++) {
+            for(int j = 0 ; j < m ; j++) {
+                vis[i][j] = false;
+            }
+        }
+        for(int i = 0 ; i < n ; i++) {
+            for(int j = 0 ; j < m ; j++) {
+                if(dfs(i , j , board , word , 0)) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
 
     public int mincostTickets(int[] days, int[] costs) {
         int n = days.length;
@@ -138,20 +254,24 @@ public class Solution {
         return dp[n - 1];
     }
 
+    public List<String> findWords(char[][] board, String[] words) {
+        List < String > ans = new ArrayList<>();
+
+
+
+        return ans;
+    }
+
 
     public static void main(String[] args) {
         int [] T = new int[4];
 
-        T[0] = 11;
-        T[1] = 13;
-        T[2] = 21;
-        T[3] = 3;
-
-        Vector < Integer > ans = nextGreaterDistance(T);
-
-        for(int i : ans) {
-            System.out.print(i +  " ");
-        }
+        Solution s = new Solution();
+        char[][] board = new char[1][2];
+        board[0][0] = 'a';
+        board[0][1] = 'a';
+        boolean flag = s.exist(board , "aa");
+        System.out.println(flag);
     }
 
 }
