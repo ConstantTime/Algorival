@@ -19,35 +19,20 @@ public:
     int maxProduct(vector<int>& nums) {
         int n = nums.size();
 
-        int maxi = 1;
-        int cur_maxi = 1;
-        int cur_mini = 1;
-        bool flag = false;
+        int maxi = INT_MIN;
+        int fi = 0;
+        int se = 0;
 
         rep(i , 0 , n - 1) {
-            if(nums[i] > 0) {
-                flag = true;
-                cur_mini = min(1 , cur_mini * nums[i]);
-                cur_maxi = max(1 , cur_maxi * nums[i]);
-            }
-            else if(nums[i] == 0) {
-                cur_maxi = 1;
-                cur_mini = 1;
-            }
-            else {
-                int temp = cur_maxi;
-                cur_maxi = max(cur_mini * nums[i] , 1);
-                cur_mini = nums[i] * temp;
-            }
+            if(fi == 0) fi = 1;
+            if(se == 0) se = 1;
+            fi *= nums[i];
+            se *= nums[n - i - 1];
 
-            maxi = max(maxi , cur_maxi);
+            maxi = max(maxi , fi);
+            maxi = max(maxi , se);
         }
 
-        if(flag == false && maxi == 1) {
-            rep(i , 0 , n - 1) {
-                maxi = max(maxi , nums[i]);
-            }
-        }
         return maxi;
     }
 };

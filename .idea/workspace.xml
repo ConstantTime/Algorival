@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68db5b80-14f8-4160-922f-73a4159deafe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JCodes/Maths/ModularPowerAndInverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JCodes/LeetCode/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JCodes/graphs/Dijkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JCodes/graphs/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JCodes/graphs/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JCodes/LeetCode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JCodes/LeetCode/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JCodes/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JCodes/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c++/LeetCode ALgorithms/MaxProductSubarray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/c++/LeetCode ALgorithms/MaxProductSubarray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/LeetCode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/LeetCode/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/Trie.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,36 +24,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JCodes/LeetCode/Solution.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="425" column="96" selection-start-line="425" selection-start-column="96" selection-end-line="425" selection-end-column="96" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JCodes/LeetCode/Solution2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#2491#2492#0" expanded="true" />
+                <element signature="e#2515#2516#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/Dijkstra.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/ModularPowerAndInverse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-              <folding>
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JCodes/generics/PairGenericWithComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -107,6 +124,14 @@
         <option value="$PROJECT_DIR$/src/JCodes/Maths/ModularPowerAndModularInverse.java" />
         <option value="$PROJECT_DIR$/src/JCodes/Maths/ModularPowerAndInverse.java" />
         <option value="$PROJECT_DIR$/src/JCodes/LeetCode/Solution.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/graphs/Node.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/graphs/GeneralGraph.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/graphs/Graph.java" />
+        <option value="$PROJECT_DIR$/src/tasks/output/Main.java" />
+        <option value="$PROJECT_DIR$/src/tasks/codes/LeetCode.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/graphs/Dijkstra.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/LeetCode/p.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/LeetCode/Solution2.java" />
       </list>
     </option>
   </component>
@@ -124,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,6 +182,13 @@
               <item name="TasksAndAlgos" type="b2602c69:ProjectViewProjectNode" />
               <item name="TasksAndAlgos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JCodes" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TasksAndAlgos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TasksAndAlgos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -167,10 +198,18 @@
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
               <item name="codes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TasksAndAlgos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TasksAndAlgos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -182,15 +221,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Semester 7\PLACEMENTS\TasksAndAlgos\src\tasks\codes\ABC140" />
+      <recent name="E:\Semester 7\PLACEMENTS\TasksAndAlgos" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Semester 7\PLACEMENTS\TasksAndAlgos\c++" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Semester 7\PLACEMENTS\TasksAndAlgos\src\tasks\codes\ABC140" />
-      <recent name="E:\Semester 7\PLACEMENTS\TasksAndAlgos" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="JCodes.LeetCode" />
+      <recent name="java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -205,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Task.Bob and Subarray">
+  <component name="RunManager" selected="Application.Solution2">
     <configuration name="LeetCodeProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java.LeetCode.LeetCodeProblems" />
       <module name="TasksAndAlgos" />
@@ -242,9 +282,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JCodes.LeetCode.Solution2" />
+      <module name="TasksAndAlgos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JCodes.LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="A - Password" type="Task" factoryName="Task">
       <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -258,17 +312,20 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="Bob and Subarray" type="Task" factoryName="Task">
-      <taskConf>src/tasks/codes/Bob and Subarray.json</taskConf>
+      <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="C - Maximal Value" type="Task" factoryName="Task">
       <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -281,11 +338,13 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="D - Face Produces Unhappiness" type="Task" factoryName="Task">
       <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -299,6 +358,7 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="D. Coloring Edges" type="Task" factoryName="Task">
@@ -308,6 +368,13 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode" type="Task" factoryName="Task">
+      <taskConf>src/tasks/codes/LeetCode.json</taskConf>
+      <method v="2">
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="Number of Ways" type="Task" factoryName="Task">
@@ -316,10 +383,12 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.LeetCodeProblems" />
       </list>
@@ -340,6 +409,7 @@
       <workItem from="1567951215616" duration="10337000" />
       <workItem from="1568045053996" duration="722000" />
       <workItem from="1568209569132" duration="12428000" />
+      <workItem from="1568280731219" duration="7118000" />
     </task>
     <task id="LOCAL-00001" summary="minor force push">
       <created>1567838036339</created>
@@ -408,12 +478,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33435000" />
+    <option name="totallyTimeSpent" value="40553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20604026" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20872483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -422,7 +493,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37188873" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37188873" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -519,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/temp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tasks/codes/ABC140/APassword.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -566,7 +630,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/TrieNode.java" />
-    <entry file="file://$PROJECT_DIR$/src/tasks/output/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/tasks/codes/ABC140/DVariousSushi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -593,37 +656,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/BobAndSubarray.java">
+    <entry file="file://$PROJECT_DIR$/src/tasks/codes/BobAndSubarray.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCodes/LeetCode/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="88">
+          <caret line="417" column="23" lean-forward="true" selection-start-line="417" selection-start-column="23" selection-end-line="417" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/generics/PairGenericWithComparator.java">
+    <entry file="file://$PROJECT_DIR$/src/tasks/codes/temp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/output/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/codes/LeetCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/ModularPowerAndInverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/generics/PairGenericWithComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="9" />
           <folding>
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/LeetCode/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/Dijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="425" column="96" selection-start-line="425" selection-start-column="96" selection-end-line="425" selection-end-column="96" />
+        <state relative-caret-position="-17">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/LeetCode/p.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/LeetCode/Solution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#2491#2492#0" expanded="true" />
+            <element signature="e#2515#2516#0" expanded="true" />
           </folding>
         </state>
       </provider>
