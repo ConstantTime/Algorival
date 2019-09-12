@@ -1,5 +1,6 @@
 package JCodes.LeetCode;
 
+import JCodes.Trie;
 import JCodes.generics.PairGenericWithComparator;
 
 import java.lang.reflect.Array;
@@ -254,14 +255,147 @@ public class Solution {
         return dp[n - 1];
     }
 
+
+    int n , m;
     public List<String> findWords(char[][] board, String[] words) {
         List < String > ans = new ArrayList<>();
 
+        Trie t = new Trie();
 
+        n = board.length;
+        if(n == 0) {
+            return ans;
+        }
+
+        m = board[0].length;
+        for(String word : words) {
+            t.insert(word);
+        }
+
+        boolean[][] vis = new boolean[n][m];
+
+        for(int i = 0 ; i < n ; i++) {
+            for(int j = 0 ; j < m ; j++) {
+                vis[i][j] = false;
+            }
+        }
+
+
+        Set < String > res = new HashSet<>();
+        for(int i = 0 ; i < n ; i++) {
+            for(int j = 0 ; j < m ; j++) {
+                String word = String.valueOf(board[i][j]);
+                dfs(res , i , j , board , vis , t , word);
+            }
+        }
+
+        ans.addAll(res);
 
         return ans;
     }
+    public int[] dx = {-1, 1, 0, 0};
+    public int[] dy = {0, 0, -1, 1};
 
+    private void dfs(Set<String> res, int x, int y, char[][] board, boolean[][] vis, Trie t, String word) {
+        if(x < 0 || x >= m || y < 0 || y >= m || vis[x][y]) return;
+
+        if(t.search(word)) {
+            res.add(word);
+        }
+        for(int i = 0 ; i < 4 ; i++) {
+            int nx = x + dx[i];
+            int ny = y + dy[i];
+            vis[x][y] = true;
+            if(nx < 0 || nx >= n || ny < 0 || ny >= m || vis[nx][ny]) continue;
+            word = word + board[nx][ny];
+            dfs(res , nx , ny , board , vis , t , word);
+            vis[x][y] = false;
+        }
+    }
+
+
+    public int movesToMakeZigzag(int[] nums) {
+        int n = nums.length;
+
+        int len = 0;
+        int cnt = 0;
+
+        if(n == 0) return 0;
+        int prev = nums[0];
+
+        for(int i = 1 ; i < n ; i++) {
+            if(i % 2 == 0) {
+                if(nums[i] >= prev) {
+                    len += (nums[i] - prev + 1);
+                    prev = prev - 1;
+                }
+                else {
+                    prev = nums[i];
+                }
+            }
+            else {
+                if(nums[i] <= prev) {
+                    len += prev - nums[i] + 1;
+                    prev = nums[i];
+                }
+                else {
+                    prev = nums[i];
+                }
+            }
+        }
+
+        prev = nums[0];
+
+        for(int i = 1 ; i < n ; i++) {
+            if(i % 2 != 0) {
+                if(nums[i] > prev) {
+                    cnt += (nums[i] - prev + 1);
+                    prev = prev - 1;
+                }
+                else {
+                    prev = nums[i];
+                }
+            }
+            else {
+                if(nums[i] <= prev) {
+                    cnt += prev - nums[i] + 1;
+                    prev = nums[i];
+                }
+                else {
+                    prev = nums[i];
+                }
+            }
+        }
+
+        return Math.min(len , cnt);
+    }
+
+    public void setZeroes(int[][] matrix) {
+        int n = matrix.length;
+
+        if(n == 0) return ;
+        int m = matrix[0].length;
+
+        Set < pair > a = new HashSet<>();
+
+        for(int i = 0 ; i < n ; i++) {
+            for(int j = 0 ; j < m ; j++) {
+                if(matrix[i][j] == 0 && !a.contains(new pair(i , j))) {
+                    for(int k = 0 ; k < n ; k++) {
+                        a.add(new pair(k , j));
+                    }
+
+                    for(int k = 0 ; k < m ; k++) {
+                        a.add(new pair(i , k));
+                    }
+                }
+            }
+        }
+
+        for(pair p : a) {
+            matrix[(int) p.fi][(int) p.se] = 0;
+        }
+    }
 
     public static void main(String[] args) {
         int [] T = new int[4];
@@ -274,4 +408,62 @@ public class Solution {
         System.out.println(flag);
     }
 
+    private long modular_power(long fi, long l, long mod) {
+        if(l == 0) return 1;
+        long ans = modular_power(fi , l / 2 , mod);
+        ans *= ans;
+        ans %= mod;
+        if(l % 2 != 0) {
+            ans *= fi;
+            ans %= mod;
+        }
+        return ans;
+    }
+    public int superPow(int a, int[] b) {
+        int mod = 1337;
+        int res = (int) modular_power(a , b[0] , mod);
+        for(int i = 1 ; i < b.length ; i++) {
+            res = (int) ((modular_power(res , 10 , mod) * modular_power(a , b[i] , mod)) % mod);
+        }
+
+        return res;
+    }
+
+}
+
+class pair {
+    public long fi;
+    public long se;
+
+    public pair(long fi, long se) {
+        this.fi = fi;
+        this.se = se;
+    }
+
+    public pair() {
+
+    }
+
+    @Override
+    public int hashCode() {
+        long mod = (long) (1e9 + 7);
+        long ans = 0;
+        ans += modular_power(fi, (long)1871 , mod);
+        ans %= mod;
+        ans += modular_power((long)se , (long)1871 , mod);
+        ans %= mod;
+        return (int) ans;
+    }
+
+    private long modular_power(long fi, long l, long mod) {
+        if(l == 0) return 1;
+        long ans = modular_power(fi , l / 2 , mod);
+        ans *= ans;
+        ans %= mod;
+        if(l % 2 != 0) {
+            ans *= fi;
+            ans %= mod;
+        }
+        return ans;
+    }
 }
