@@ -1,2 +1,2 @@
-29 src/tasks/codes/LeetCode.json
+38 src/tasks/codes/C - Dice and Coin.json
 0

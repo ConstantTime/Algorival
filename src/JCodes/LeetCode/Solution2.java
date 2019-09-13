@@ -85,17 +85,17 @@ public class Solution2 {
     }
 }
 
-class pairp implements Comparable <pairp> {
+class pairP implements Comparable <pairP> {
     public char fi;
     public int se;
 
-    public pairp(int b , char a) {
+    public pairP(int b , char a) {
         fi = a;
         se = b;
     }
 
     @Override
-    public int compareTo(pairp o) {
+    public int compareTo(pairP o) {
         return se - o.se;
     }
 }
