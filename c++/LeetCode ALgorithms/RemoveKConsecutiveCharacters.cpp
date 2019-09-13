@@ -30,15 +30,18 @@ public:
             pair < char , int > temp = s.top();
             if(temp.first == a[i]) {
                 s.push({a[i] , temp.second + 1});
+            //    cout << a[i] << " added " << temp.second + 1 << endl;
             }
             else {
                 s.push({a[i] , 1});
+             //   cout << a[i] << " " << 1 << endl;
             }
 
             temp = s.top();
 
             if(temp.second == k) {
-                while(s.top().first == temp.first) {
+               // cout << temp.first << " " << temp.second << endl;
+                while(!s.empty() && s.top().first == temp.first) {
                     s.pop();
                 }
             }
@@ -62,6 +65,9 @@ int main() {
  
     cout << fixed << setprecision(12);
 
-    cout << removeKCharacters("geeksforgeeks" , 2) << endl; 
+    Solution s;
+
+    int k = 2;
+    cout << s.removeKCharacters("aaaabbc" , k) << endl; 
     return 0;
 }
