@@ -8,7 +8,6 @@ import java.io.Writer;
 import java.io.OutputStreamWriter;
 import java.util.InputMismatchException;
 import java.io.IOException;
-import java.util.Formatter;
 import java.io.InputStream;
 
 /**
@@ -21,41 +20,54 @@ public class Main {
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         OutputWriter out = new OutputWriter(outputStream);
-        CDiceAndCoin solver = new CDiceAndCoin();
+        DFlippingSigns solver = new DFlippingSigns();
         solver.solve(1, in, out);
         out.close();
     }
 
-    static class CDiceAndCoin {
+    static class DFlippingSigns {
         public void solve(int testNumber, InputReader in, OutputWriter out) {
             int n = in.nextInt();
-            int k = in.nextInt();
 
-            double ans = 0.0;
+            int[] a = in.nextIntArray(n);
 
-            for (int i = 1; i <= n; i++) {
-                double f = 1.0 / Double.valueOf(n);
+            long sum = 0;
 
-                int cnt = 0;
-                int score = i;
-                while (true) {
-                    if (score >= k) {
-                        break;
-                    }
-                    cnt++;
-                    score = score * 2;
-                }
-
-                //  if(cnt == 0) continue;
-                //    if(cnt > 0)
-                //      out.println(i , cnt);
-                ans += f * Math.pow(0.5, Double.valueOf(cnt));
+            int cnt = 0;
+            int mini = Integer.MAX_VALUE;
+            for (int i : a) {
+                if (i < 0) cnt++;
+                sum += Math.abs(i);
+                mini = Math.min(mini, Math.abs(i));
             }
 
-            Formatter fmt = new Formatter();
-            fmt.format("%.15f", ans);
+            if (cnt % 2 == 0) {
+                out.println(sum);
+            } else {
+                out.println(sum - 2 * mini);
+            }
 
-            out.println(fmt);
+        }
+
+    }
+
+    static class OutputWriter {
+        private final PrintWriter writer;
+
+        public OutputWriter(OutputStream outputStream) {
+            writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(outputStream)));
+        }
+
+        public OutputWriter(Writer writer) {
+            this.writer = new PrintWriter(writer);
+        }
+
+        public void close() {
+            writer.close();
+        }
+
+        public void println(long i) {
+            writer.println(i);
         }
 
     }
@@ -122,40 +134,15 @@ public class Main {
             return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
         }
 
+        public int[] nextIntArray(int n) {
+            int[] array = new int[n];
+            for (int i = 0; i < n; ++i) array[i] = nextInt();
+            return array;
+        }
+
         public interface SpaceCharFilter {
             public boolean isSpaceChar(int ch);
 
-        }
-
-    }
-
-    static class OutputWriter {
-        private final PrintWriter writer;
-
-        public OutputWriter(OutputStream outputStream) {
-            writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(outputStream)));
-        }
-
-        public OutputWriter(Writer writer) {
-            this.writer = new PrintWriter(writer);
-        }
-
-        public void print(Object... objects) {
-            for (int i = 0; i < objects.length; i++) {
-                if (i != 0) {
-                    writer.print(' ');
-                }
-                writer.print(objects[i]);
-            }
-        }
-
-        public void println(Object... objects) {
-            print(objects);
-            writer.println();
-        }
-
-        public void close() {
-            writer.close();
         }
 
     }

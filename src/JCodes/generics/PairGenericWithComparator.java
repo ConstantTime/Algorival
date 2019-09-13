@@ -23,8 +23,8 @@ public class PairGenericWithComparator {
 
         @Override
         public int compareTo(pair o) {
-            if(fi != o.fi) return Long.valueOf((Long) fi).compareTo(Long.valueOf((Long) o.fi));
-            return Long.valueOf((Long) se).compareTo((Long.valueOf((Long) o.fi)));
+            if(fi != o.fi) return Integer.valueOf(Math.toIntExact((Long) fi)).compareTo(Math.toIntExact(Long.valueOf((Long) o.fi)));
+            return Integer.valueOf((Integer) se).compareTo((Integer.valueOf(Math.toIntExact((Long) o.fi))));
         }
     }
 }

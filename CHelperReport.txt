@@ -1,2 +1,2 @@
-38 src/tasks/codes/C - Dice and Coin.json
+39 src/tasks/codes/D - Flipping Signs.json
 0
