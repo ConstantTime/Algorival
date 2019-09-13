@@ -1,7 +1,7 @@
 package JCodes.Maths;
 
 public class ModularPowerAndInverse {
-    private long modular_power(long fi, long l, long mod) {
+    public static long modular_power(long fi, long l, long mod) {
         if(l == 0) return 1;
         long ans = modular_power(fi , l / 2 , mod);
         ans *= ans;
@@ -13,7 +13,7 @@ public class ModularPowerAndInverse {
         return ans;
     }
 
-    private long inverse_mod(long fi , long mod) {
+    public static long inverse_mod(long fi , long mod) {
         return modular_power(fi , mod - 2 , mod);
     }
 }
