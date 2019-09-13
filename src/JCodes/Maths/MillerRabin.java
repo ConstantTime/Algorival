@@ -25,7 +25,7 @@ public class MillerRabin {
         return true;
     }
 
-    private boolean millerTest(int d, int n) {
+    public boolean millerTest(int d, int n) {
         Random r = new Random();
 
         int a = r.nextInt(n - 4) + 2;
