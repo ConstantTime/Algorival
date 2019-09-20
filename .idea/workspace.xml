@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68db5b80-14f8-4160-922f-73a4159deafe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JCodes/Maths/factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JCodes/Maths/ncrWithoutDp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JCodes/Maths/nprWithoutDp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JCodes/DP/CountWaysToReachNthStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,11 +57,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/nprWithoutDp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JCodes/DP/CountWaysToReachNthStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -137,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/java/Solution/Solution.java" />
         <option value="$PROJECT_DIR$/src/java/Solution/LeetCodeProblems.java" />
         <option value="$PROJECT_DIR$/src/java/LeetCodeSolution/LeetCodeProblems.java" />
         <option value="$PROJECT_DIR$/src/java/LeetCode/LeetCodeProblems.java" />
@@ -188,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/JCodes/Maths/factorial.java" />
         <option value="$PROJECT_DIR$/src/JCodes/Maths/ncrWithoutDp.java" />
         <option value="$PROJECT_DIR$/src/JCodes/Maths/nprWithoutDp.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/DP/CountWaysToReachNthStep.java" />
       </list>
     </option>
   </component>
@@ -776,7 +784,7 @@
       <workItem from="1568550714174" duration="1821000" />
       <workItem from="1568622349880" duration="472000" />
       <workItem from="1568823068099" duration="47000" />
-      <workItem from="1568957173041" duration="11134000" />
+      <workItem from="1568957173041" duration="12483000" />
     </task>
     <task id="LOCAL-00001" summary="minor force push">
       <created>1567838036339</created>
@@ -876,11 +884,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568984627000</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ncr Without DP updated">
+      <created>1568985165026</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1568985165026</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72206000" />
+    <option name="totallyTimeSpent" value="73555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -975,7 +990,8 @@
     <MESSAGE value="private to public in Primality test" />
     <MESSAGE value="ABC 125, 126 added" />
     <MESSAGE value="Z algorithm + math codes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Z algorithm + math codes added" />
+    <MESSAGE value="ncr Without DP updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="ncr Without DP updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -990,13 +1006,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/ABC140/BBuffet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tasks/codes/ABC140/DFaceProducesUnhappiness.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1332,6 +1341,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/DP/CountWaysToReachNthStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
