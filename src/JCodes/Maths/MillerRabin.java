@@ -29,7 +29,7 @@ public class MillerRabin {
         Random r = new Random();
 
         int a = r.nextInt(n - 4) + 2;
-        int x = (int) ModularPowerAndInverse.modular_power(a , d , n);
+        int x = (int) ModularPower.modular_power(a , d , n);
         if(x == 1 || x == n - 1) return true;
 
         while(d != n - 1) {

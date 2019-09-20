@@ -1,6 +1,6 @@
 package JCodes.Maths;
 
-public class ModularPowerAndInverse {
+public class ModularPower {
     public static long modular_power(long fi, long l, long mod) {
         if(l == 0) return 1;
         long ans = modular_power(fi , l / 2 , mod);
@@ -13,7 +13,5 @@ public class ModularPowerAndInverse {
         return ans;
     }
 
-    public static long inverse_mod(long fi , long mod) {
-        return modular_power(fi , mod - 2 , mod);
-    }
+
 }
