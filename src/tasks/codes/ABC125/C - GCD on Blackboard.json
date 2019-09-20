@@ -1,0 +1,44 @@
+{
+  "name" : "C - GCD on Blackboard",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n7 6 8\n",
+    "output" : "2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n12 15 18\n",
+    "output" : "6\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2\n1000000000 1000000000\n",
+    "output" : "1000000000\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/tasks/codes",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "tasks.codes.CGCDOnBlackboard",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.09.13",
+  "contestName" : "AtCoder Beginner Contest 125",
+  "truncate" : true,
+  "inputClass" : "tasks.fastIO.InputReader",
+  "outputClass" : "tasks.fastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

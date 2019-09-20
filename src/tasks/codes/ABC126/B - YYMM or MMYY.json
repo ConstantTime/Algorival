@@ -1,0 +1,69 @@
+{
+  "name" : "B - YYMM or MMYY",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1905\n",
+    "output" : "YYMM\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "0112\n",
+    "output" : "AMBIGUOUS\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1700\n",
+    "output" : "NA\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1716",
+    "output" : "NA",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "9011",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "9911",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "1919",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "1013",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "1310",
+    "index" : 8,
+    "active" : true
+  } ],
+  "location" : "src/tasks/codes",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "tasks.codes.BYYMMOrMMYY",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.09.13",
+  "contestName" : "AtCoder Beginner Contest 126",
+  "truncate" : true,
+  "inputClass" : "tasks.fastIO.InputReader",
+  "outputClass" : "tasks.fastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,54 @@
+{
+  "name" : "B - Tap Dance",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "RUDLUDR\n",
+    "output" : "Yes\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "DULL\n",
+    "output" : "No\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "UUUUUUUUUUUUUUU\n",
+    "output" : "Yes\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "ULURU\n",
+    "output" : "No\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "RDULULDURURLRDULRLR\n",
+    "output" : "Yes\n",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/tasks/codes",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "tasks.codes.BTapDance",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.09.15",
+  "contestName" : "AtCoder Beginner Contest 141",
+  "truncate" : true,
+  "inputClass" : "tasks.fastIO.InputReader",
+  "outputClass" : "tasks.fastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

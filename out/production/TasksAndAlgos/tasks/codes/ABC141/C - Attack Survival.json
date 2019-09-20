@@ -1,0 +1,44 @@
+{
+  "name" : "C - Attack Survival",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6 3 4\n3\n1\n3\n2\n",
+    "output" : "No\nNo\nYes\nNo\nNo\nNo\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6 5 4\n3\n1\n3\n2\n",
+    "output" : "Yes\nYes\nYes\nYes\nYes\nYes\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "10 13 15\n3\n1\n4\n1\n5\n9\n2\n6\n5\n3\n5\n8\n9\n7\n9\n",
+    "output" : "No\nNo\nNo\nNo\nYes\nNo\nNo\nNo\nYes\nNo\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/tasks/codes",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "tasks.codes.CAttackSurvival",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.09.15",
+  "contestName" : "AtCoder Beginner Contest 141",
+  "truncate" : true,
+  "inputClass" : "tasks.fastIO.InputReader",
+  "outputClass" : "tasks.fastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
