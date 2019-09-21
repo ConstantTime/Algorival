@@ -9,10 +9,10 @@ public class Level {
     private int availableSpots;
     private int floor;
 
-    public Level(int floor , int maxSpots, int availableSpots) {
+    public Level(int floor , int maxSpots) {
         this.maxSpots = maxSpots;
         this.floor = floor;
-        this.availableSpots = availableSpots;
+        this.availableSpots = maxSpots;
         initialize();
     }
 
