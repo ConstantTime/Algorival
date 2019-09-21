@@ -36,7 +36,7 @@ public class ZAlgorithm {
         return Z;
     }
 
-    // here a is our pattern that will be matched with string b which is our main text
+    // here first is our pattern that will be matched with string second which is our main text
     public List< Integer > patternMatching(String a, String b) {
         String res = a;
         res.concat("$");

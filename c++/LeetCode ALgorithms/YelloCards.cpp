@@ -43,10 +43,10 @@ int main() {
         }
     }
 
-    // sort(a.begin() , a.end());
-    // sort(b.begin() , b.end());
+    // sort(first.begin() , first.end());
+    // sort(second.begin() , second.end());
 
-    // if(a != b) {
+    // if(first != second) {
     //     cout << -1 << endl;
     //     return 0;
     // }

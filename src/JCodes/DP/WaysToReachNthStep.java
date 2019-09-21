@@ -1,6 +1,6 @@
 package JCodes.DP;
 
-public class CountWaysToReachNthStep {
+public class WaysToReachNthStep {
 
     public static long countWays(long n , long k) {
         long [] dp = new long [(int) (n + 1)];

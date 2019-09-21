@@ -2,7 +2,7 @@ package JCodes.DP;
 
 public class ncr {
 
-    public static long ncr(long n, long r) {
+    public static long[][] ncr(long n, long r) {
         long [][] dp = new long [(int) n + 1][(int) r + 1];
          for(int i = 0 ; i <= n ; i++) {
              for(int j = 0 ; j <= r ; j++) {
@@ -19,10 +19,6 @@ public class ncr {
              }
          }
 
-         return dp[(int) n][(int) r];
-    }
-
-    public static void main(String[] args) {
-        System.out.println(ncr(10 , 2));
+         return dp;
     }
 }

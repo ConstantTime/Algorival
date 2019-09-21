@@ -30,11 +30,11 @@ public:
             pair < char , int > temp = s.top();
             if(temp.first == a[i]) {
                 s.push({a[i] , temp.second + 1});
-            //    cout << a[i] << " added " << temp.second + 1 << endl;
+            //    cout << first[i] << " added " << temp.second + 1 << endl;
             }
             else {
                 s.push({a[i] , 1});
-             //   cout << a[i] << " " << 1 << endl;
+             //   cout << first[i] << " " << 1 << endl;
             }
 
             temp = s.top();

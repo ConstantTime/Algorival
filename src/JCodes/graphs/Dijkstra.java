@@ -4,9 +4,9 @@ import java.util.*;
 
 public class Dijkstra {
 
-    PriorityQueue < Node > pq = new PriorityQueue<>();
-    Set < Integer > settled = new HashSet<>();
-    int [] dist;
+    public static PriorityQueue < Node > pq = new PriorityQueue<>();
+    public static Set < Integer > settled = new HashSet<>();
+    public static int [] dist;
     public int [] dijkstra(int n , List <List< Node >> a , int src) {
 
         dist = new int[n];
@@ -24,7 +24,7 @@ public class Dijkstra {
         return dist;
     }
 
-    private void neighbours(List < List < Node > > a, int u) {
+    public static void neighbours(List < List < Node > > a, int u) {
         int edgeDistance = -1;
         int newDistance = -1;
 

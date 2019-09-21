@@ -26,7 +26,7 @@ public class DVariousSushi {
         }
 
         Arrays.sort(a);
-//        Collections.reverse(Arrays.asList(a));
+//        Collections.reverse(Arrays.asList(first));
 
         int l = 0;
         int r = n - 1;

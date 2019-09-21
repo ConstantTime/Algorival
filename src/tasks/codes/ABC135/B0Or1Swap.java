@@ -35,7 +35,7 @@ public class B0Or1Swap {
                 b[j] = temp;
 
                 if(res == true) {
-                    //out.println(b);
+                    //out.println(second);
                     flag = true;
                     break;
                 }
