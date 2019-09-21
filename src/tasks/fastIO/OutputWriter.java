@@ -6,10 +6,6 @@ import java.io.OutputStreamWriter;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 
-
-/**
- * @author Bibhuti Bhusan Panda (emailofpanda@yahoo.com)
- */
 public class OutputWriter {
     private final PrintWriter writer;
 
