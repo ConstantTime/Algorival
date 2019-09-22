@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68db5b80-14f8-4160-922f-73a4159deafe" name="Default Changelist" comment="No of Ways with k leaps">
-      <change afterPath="$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/BellmanGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JCodes/graphs/BellmanFord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JCodes/graphs/CycleInDirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JCodes/Permutations/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JCodes/graphs/CycleInUndirectedGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JCodes/LeetCode/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JCodes/LeetCode/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JCodes/graphs/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JCodes/graphs/Dijkstra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JCodes/graphs/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JCodes/graphs/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/codes/ABC126/DEvenRelation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/codes/ABC126/DEvenRelation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/codes/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/codes/LeetCode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,19 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/Dijkstra.java">
+        <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/CycleInDirectedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/BellmanFord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,31 +31,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/Graph.java">
+        <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/CycleInUndirectedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/BellmanGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="598">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,26 +43,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/CycleInDirectedGraph.java">
+        <entry file="file://$PROJECT_DIR$/src/JCodes/Permutations/Permutations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/Color.java">
+        <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/factorial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding>
-                <element signature="e#131#132#0" expanded="true" />
-                <element signature="e#165#166#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -111,8 +65,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -150,9 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tasks/codes/ABC126/DEvenRelation.java" />
-        <option value="$PROJECT_DIR$/src/tasks/codes/ABiscuitGenerator.java" />
-        <option value="$PROJECT_DIR$/src/JCodes/generics/PairGenericWithComparator.java" />
         <option value="$PROJECT_DIR$/src/tasks/codes/BResale.java" />
         <option value="$PROJECT_DIR$/src/tasks/codes/CGCDOnBlackboard.java" />
         <option value="$PROJECT_DIR$/src/tasks/codes/DFlippingSigns.java" />
@@ -170,7 +121,6 @@
         <option value="$PROJECT_DIR$/src/JCodes/Maths/ModularPowerAndInverse.java" />
         <option value="$PROJECT_DIR$/src/JCodes/Maths/ModularPower.java" />
         <option value="$PROJECT_DIR$/src/JCodes/Maths/ModularInverse.java" />
-        <option value="$PROJECT_DIR$/src/JCodes/Maths/factorial.java" />
         <option value="$PROJECT_DIR$/src/JCodes/Maths/ncrWithoutDp.java" />
         <option value="$PROJECT_DIR$/src/JCodes/Maths/nprWithoutDp.java" />
         <option value="$PROJECT_DIR$/src/JCodes/DP/CountWaysToReachNthStep.java" />
@@ -201,6 +151,10 @@
         <option value="$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/Node.java" />
         <option value="$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/Color.java" />
         <option value="$PROJECT_DIR$/src/JCodes/graphs/CycleInDirectedGraph.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/graphs/CycleInUndirectedGraph.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/Maths/factorial.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/Permutations/TotalPermutations.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/Permutations/Permutations.java" />
       </list>
     </option>
   </component>
@@ -260,6 +214,20 @@
               <item name="JCodes" type="462c0819:PsiDirectoryNode" />
               <item name="graphs" type="462c0819:PsiDirectoryNode" />
               <item name="BaseObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TasksAndAlgos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TasksAndAlgos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JCodes" type="462c0819:PsiDirectoryNode" />
+              <item name="Maths" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TasksAndAlgos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TasksAndAlgos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JCodes" type="462c0819:PsiDirectoryNode" />
+              <item name="Permutations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TasksAndAlgos" type="b2602c69:ProjectViewProjectNode" />
@@ -884,7 +852,7 @@
       <workItem from="1568957173041" duration="13703000" />
       <workItem from="1569037540162" duration="11563000" />
       <workItem from="1569071697529" duration="8025000" />
-      <workItem from="1569145831210" duration="2987000" />
+      <workItem from="1569145831210" duration="4435000" />
     </task>
     <task id="LOCAL-00001" summary="minor force push">
       <created>1567838036339</created>
@@ -1002,7 +970,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97350000" />
+    <option name="totallyTimeSpent" value="98798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1114,20 +1082,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/ABC125/DFlippingSigns.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/ABC141/BTheNumberOfProducts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tasks/codes/ABC125/BResale.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1322,13 +1276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/factorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JCodes/DP/ncr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1496,11 +1443,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/CycleInDirectedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/CycleInUndirectedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/factorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/Permutations/Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
         </state>
       </provider>
     </entry>
