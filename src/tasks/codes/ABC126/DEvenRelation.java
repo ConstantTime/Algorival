@@ -1,7 +1,7 @@
 package tasks.codes.ABC126;
 
-import JCodes.graphs.Graph;
-import JCodes.graphs.Node;
+import JCodes.graphs.BaseObjects.Graph;
+import JCodes.graphs.BaseObjects.Node;
 import tasks.fastIO.InputReader;
 import tasks.fastIO.OutputWriter;
 
@@ -19,7 +19,7 @@ public class DEvenRelation {
 
         for(int i = 1 ; i <= n + 1 ; i++) {
             List<Node> item = new ArrayList<>();
-            graph.a.add(item);
+            graph.list.add(item);
         }
 
         for(int i = 0 ; i < n - 1; i++) {
@@ -28,8 +28,8 @@ public class DEvenRelation {
             v = in.nextInt();
             w = in.nextInt();
 
-            graph.a.get(u).add(new Node(v , w));
-            graph.a.get(v).add(new Node(u , w));
+            graph.list.get(u).add(new Node(v , w));
+            graph.list.get(v).add(new Node(u , w));
         }
 
         color = new int[n + 1];
@@ -49,7 +49,7 @@ public class DEvenRelation {
     private void dfs(int i) {
         vis[i] = true;
 
-        for(Node node : graph.a.get(i)) {
+        for(Node node : graph.list.get(i)) {
             if(vis[node.node] == false) {
                 color[node.node] = (color[i] + node.cost) % 2;
                 dfs(node.node);

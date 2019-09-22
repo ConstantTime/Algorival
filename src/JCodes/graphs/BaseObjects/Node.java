@@ -1,4 +1,4 @@
-package JCodes.graphs;
+package JCodes.graphs.BaseObjects;
 
 public class Node implements Comparable<Node> {
 

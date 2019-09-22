@@ -1,7 +1,7 @@
 package JCodes.LeetCode;
 
-import JCodes.graphs.Graph;
-import JCodes.graphs.Node;
+import JCodes.graphs.BaseObjects.Graph;
+import JCodes.graphs.BaseObjects.Node;
 
 import java.util.*;
 
@@ -20,11 +20,11 @@ public class Solution2 {
         int ans = 0;
         for(int i = 0 ; i < n ; i++) {
             List <Node> item = new ArrayList<>();
-            graph.a.add(item);
+            graph.list.add(item);
         }
 
         for(int [] flight : flights) {
-            graph.a.get(flight[0]).add(new Node(flight[1] , flight[2]));
+            graph.list.get(flight[0]).add(new Node(flight[1] , flight[2]));
         }
 
         PriorityQueue < int[] > pq = new PriorityQueue<>(new CustomComp());
@@ -34,7 +34,7 @@ public class Solution2 {
             if(cur[1] == dst) return cur[0];
             if(cur[2] > 0) {
 
-                for(Node node : graph.a.get(cur[1])) {
+                for(Node node : graph.list.get(cur[1])) {
                     pq.add(new int[] {
                         cur[0] + node.cost , node.node , cur[2] - 1
                     });
