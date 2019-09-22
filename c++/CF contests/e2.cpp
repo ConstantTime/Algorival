@@ -13,7 +13,7 @@ const ll N = 153456;
 const ll mod = 1e18 + 7;
 const ld eps = 1e-6;
 const ld pi = 3.1415926535;
-long long a[N];
+
 
 int main() {
     ios_base::sync_with_stdio(false);
@@ -21,6 +21,7 @@ int main() {
  
     cout << fixed << setprecision(12);
 
+   
     
     return 0;
 }

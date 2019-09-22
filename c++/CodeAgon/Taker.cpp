@@ -14,8 +14,22 @@ const ll mod = 1e18 + 7;
 const ld eps = 1e-6;
 const ld pi = 3.1415926535;
 
-map < ll , ll > a;
+ll powerMod(ll a , ll b) {
+    if(b == 0) return 1LL;
+    ll d = powerMod(a , b / 2);
+    d *= d;
+    d %= mod;
 
+    if(b % 2 != 0) d *= a;
+
+    d %= mod;
+
+    return d;
+}
+
+ll inverse_mod(ll a) {
+    return powerMod(a , mod - 2);
+}
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -25,15 +39,20 @@ int main() {
     int q;
     cin >> q;
 
-    rep(i , 1 , 100000LL) {
-    	a[(i * (i + 1)) / 2] = i;
-    }
-
     while(q--) {
-    	int k;
-    	cin >> k;
+    	ll n;
+    	cin >> n;
 
-    	
+        // some problem still in the answer
+        if(n <= 3) {
+            cout << n << endl;
+            continue;
+        }
+    	ll ans = 0;
+    	ans = floor(log2(n));
+  //      cout << ans << endl;
+        ans += floor(log2((2 * n) / 3));
+        cout << ans << endl;
     }
     
     return 0;
