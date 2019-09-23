@@ -1,13 +1,12 @@
 package JCodes.Permutations;
 
-import JCodes.Maths.factorial;
+import JCodes.Maths.MathTools;
 
 public class Permutations {
 
     final public static long mod = (long) (1e18 + 7);
     public static long totalPermutations(long n) {
-        factorial factorial = new factorial();
-        long [] fac = factorial.factorial(n, mod);
+        long [] fac = MathTools.factorial(n, mod);
         return fac[(int) n];
     }
 

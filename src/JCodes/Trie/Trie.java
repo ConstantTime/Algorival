@@ -1,4 +1,4 @@
-package JCodes;
+package JCodes.Trie;
 
 import java.util.HashMap;
 

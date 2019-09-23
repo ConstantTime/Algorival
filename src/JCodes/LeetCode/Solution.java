@@ -1,9 +1,8 @@
 package JCodes.LeetCode;
 
-import JCodes.Trie;
+import JCodes.Trie.Trie;
 import JCodes.generics.PairGenericWithComparator;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class Solution {
