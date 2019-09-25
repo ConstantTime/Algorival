@@ -1,7 +1,7 @@
 package JCodes.LeetCode;
 
 import JCodes.Trie.Trie;
-import JCodes.generics.PairGenericWithComparator;
+import JCodes.generics.GenericPair;
 
 import java.util.*;
 
@@ -15,15 +15,15 @@ public class Solution {
 
         ans.setSize(n);
 
-        Stack<PairGenericWithComparator.pair<Integer , Integer>> s = new Stack<>();
-        PairGenericWithComparator.pair<Integer , Integer> temp;
+        Stack<GenericPair.pair<Integer , Integer>> s = new Stack<>();
+        GenericPair.pair<Integer , Integer> temp;
 
-        temp = new PairGenericWithComparator.pair<>(T[0] , 0);
+        temp = new GenericPair.pair<>(T[0] , 0);
         s.add(temp);
 
         for(int i = 1 ; i < n ; i++) {
             if(s.empty()) {
-                temp = new PairGenericWithComparator.pair<>(T[i] , i);
+                temp = new GenericPair.pair<>(T[i] , i);
                 s.push(temp);
                 continue;
             }
@@ -33,7 +33,7 @@ public class Solution {
                 s.pop();
             }
 
-            temp = new PairGenericWithComparator.pair<>(T[i] , i);
+            temp = new GenericPair.pair<>(T[i] , i);
             s.push(temp);
         }
 

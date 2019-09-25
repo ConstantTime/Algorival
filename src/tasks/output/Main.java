@@ -3,12 +3,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
-import java.util.Arrays;
 import java.io.BufferedWriter;
-import java.util.InputMismatchException;
-import java.io.IOException;
 import java.io.Writer;
 import java.io.OutputStreamWriter;
+import java.util.InputMismatchException;
+import java.io.IOException;
 import java.io.InputStream;
 
 /**
@@ -21,38 +20,38 @@ public class Main {
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         OutputWriter out = new OutputWriter(outputStream);
-        EWhoSaysAPun solver = new EWhoSaysAPun();
+        DSwords solver = new DSwords();
         solver.solve(1, in, out);
         out.close();
     }
 
-    static class EWhoSaysAPun {
+    static class DSwords {
         public void solve(int testNumber, InputReader in, OutputWriter out) {
 
             int n = in.nextInt();
-            String s = in.next();
+            int[] a = in.nextIntArray(n);
+            long sum = 0;
 
-            int maxi = 0;
+            for (int j : a) sum += j;
 
-            int[][] dp = new int[n][n];
+            int maxi = -1;
 
-            for (int i = 0; i < n; i++) Arrays.fill(dp[i], 0);
-
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < n; j++) {
-                    if (s.charAt(i) == s.charAt(j)) {
-                        if (i == 0 || j == 0) {
-                            dp[i][j] = 1;
-                        } else {
-                            dp[i][j] = Math.max(1 + dp[i - 1][j - 1], dp[i][j]);
-                        }
-                    }
-                    dp[i][j] = Math.min(dp[i][j], j - i);
-                    maxi = Math.max(maxi, dp[i][j]);
-                }
+            for (int j : a) {
+                if (j > maxi) maxi = j;
             }
 
-            out.println(maxi);
+            int g = maxi - a[0];
+            for (int i = 1; i < n; i++) {
+                g = MathTools.gcd(g, maxi - a[i]);
+            }
+
+            long ans = 0;
+            ans = maxi;
+            ans *= n;
+            ans -= sum;
+            ans /= g;
+
+            out.println(ans + " " + g);
         }
 
     }
@@ -68,12 +67,22 @@ public class Main {
             this.writer = new PrintWriter(writer);
         }
 
-        public void close() {
-            writer.close();
+        public void print(Object... objects) {
+            for (int i = 0; i < objects.length; i++) {
+                if (i != 0) {
+                    writer.print(' ');
+                }
+                writer.print(objects[i]);
+            }
         }
 
-        public void println(int i) {
-            writer.println(i);
+        public void println(Object... objects) {
+            print(objects);
+            writer.println();
+        }
+
+        public void close() {
+            writer.close();
         }
 
     }
@@ -129,21 +138,6 @@ public class Main {
             return res * sgn;
         }
 
-        public String nextString() {
-            int c = read();
-            while (isSpaceChar(c)) {
-                c = read();
-            }
-            StringBuilder res = new StringBuilder();
-            do {
-                if (Character.isValidCodePoint(c)) {
-                    res.appendCodePoint(c);
-                }
-                c = read();
-            } while (!isSpaceChar(c));
-            return res.toString();
-        }
-
         public boolean isSpaceChar(int c) {
             if (filter != null) {
                 return filter.isSpaceChar(c);
@@ -155,13 +149,30 @@ public class Main {
             return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
         }
 
-        public String next() {
-            return nextString();
+        public int[] nextIntArray(int n) {
+            int[] array = new int[n];
+            for (int i = 0; i < n; ++i) array[i] = nextInt();
+            return array;
         }
 
         public interface SpaceCharFilter {
             public boolean isSpaceChar(int ch);
 
+        }
+
+    }
+
+    static class MathTools {
+        public static int gcd(int a, int b) {
+            while (a != 0 && b != 0) {
+                if (a > b) {
+                    a %= b;
+                } else {
+                    b %= a;
+                }
+            }
+
+            return Math.max(a, b);
         }
 
     }

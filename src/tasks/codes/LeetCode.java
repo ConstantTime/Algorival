@@ -1,14 +1,12 @@
 package tasks.codes;
 
-import JCodes.graphs.Dijkstra;
+import JCodes.graphs.BaseObjects.ShortestPath;
 import JCodes.graphs.BaseObjects.Graph;
 import JCodes.graphs.BaseObjects.Node;
 import tasks.fastIO.InputReader;
 import tasks.fastIO.OutputWriter;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class LeetCode {
     public void solve(int testNumber, InputReader in, OutputWriter out) {
@@ -73,10 +71,23 @@ public class LeetCode {
             graph.list.get(flight[0]).add(new Node(flight[1] , flight[2]));
         }
 
-        Dijkstra dijkstra = new Dijkstra();
-        int [] dist = dijkstra.dijkstra(n , graph.list, src);
+        int [] dist = ShortestPath.dijkstra(n , graph.list, src);
 
         ans = dist[dst];
         return ans;
+    }
+
+    static class IntPair {
+        public int first;
+        public int second;
+
+        IntPair() {
+
+        }
+
+        IntPair(int first , int second) {
+            this.first = first;
+            this.second = second;
+        }
     }
 }

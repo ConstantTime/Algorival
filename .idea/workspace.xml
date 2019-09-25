@@ -2,23 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68db5b80-14f8-4160-922f-73a4159deafe" name="Default Changelist" comment="No of Ways with k leaps">
-      <change afterPath="$PROJECT_DIR$/src/JCodes/BinarySearch/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JCodes/Maths/MathTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JCodes/Stack/NextGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JCodes/generics/IntPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JCodes/generics/LongPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/ShortestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JCodes/misc/NavMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JCodes/BinarySearch/lower_bound.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JCodes/BinarySearch/upper_bound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/BinarySearch/lower_bound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/BinarySearch/upper_bound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/LeetCode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/LeetCode/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/LeetCode/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/LeetCode/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/LeetCode/pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/LeetCode/pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/Maths/MillerRabin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/Maths/ModularInverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/Maths/ModularPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/Maths/factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/Maths/ncrWithoutDp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/Maths/nprWithoutDp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/TrieNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/generics/PairGenericWithComparator$pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/generics/PairGenericWithComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/generics/TripleGenericWithComparator$pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/generics/TripleGenericWithComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/graphs/Dijkstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/graphs/Dijkstra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/graphs/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/JCodes/graphs/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/Main$EWhoSaysAPun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/Main$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TasksAndAlgos/Main$InputReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/Main$OutputWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TasksAndAlgos/Main$OutputWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TasksAndAlgos/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/tasks/codes/ABC126/DEvenRelation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TasksAndAlgos/tasks/codes/ABC126/DEvenRelation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TasksAndAlgos/tasks/codes/LeetCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TasksAndAlgos/tasks/codes/LeetCode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JCodes/LeetCode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JCodes/LeetCode/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JCodes/Maths/MillerRabin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JCodes/Maths/ModularInverse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JCodes/Maths/ModularPower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JCodes/Maths/factorial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JCodes/Maths/ncrWithoutDp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JCodes/Maths/nprWithoutDp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JCodes/Maths/MathTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JCodes/Maths/MathTools.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JCodes/Permutations/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JCodes/Permutations/Permutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JCodes/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JCodes/Trie/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JCodes/Stack/NextGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JCodes/Stack/NextGreaterElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JCodes/generics/PairGenericWithComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JCodes/generics/TripleGenericWithComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JCodes/generics/GenericTriplet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JCodes/graphs/BellmanFord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JCodes/graphs/Dijkstra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/generics/PairGenericWithComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/codes/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/codes/LeetCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/output/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/output/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,51 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/MathTools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-              <folding>
-                <element signature="e#1641#1642#0" expanded="true" />
-                <element signature="e#1697#1698#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JCodes/Permutations/Permutations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JCodes/BinarySearch/BinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="118" column="18" lean-forward="true" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JCodes/Trie/Trie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JCodes/Stack/NextGreaterElement.java">
+        <entry file="file://$PROJECT_DIR$/src/tasks/codes/LeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+            <state relative-caret-position="186">
+              <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -130,12 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tasks/codes/AWeatherPrediction.java" />
-        <option value="$PROJECT_DIR$/src/tasks/codes/AYellowCards.java" />
-        <option value="$PROJECT_DIR$/src/tasks/codes/BTheNumberOfProducts.java" />
-        <option value="$PROJECT_DIR$/src/tasks/codes/CSwapLetters.java" />
-        <option value="$PROJECT_DIR$/src/JCodes/DP/lcs.java" />
-        <option value="$PROJECT_DIR$/src/JCodes/DP/ZAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/tasks/codes/EWhoSaysAPun.java" />
         <option value="$PROJECT_DIR$/src/JCodes/Maths/ModularPowerAndInverse.java" />
         <option value="$PROJECT_DIR$/src/JCodes/Maths/ModularPower.java" />
@@ -174,20 +152,27 @@
         <option value="$PROJECT_DIR$/src/JCodes/generics/LongPair.java" />
         <option value="$PROJECT_DIR$/src/JCodes/generics/IntPair.java" />
         <option value="$PROJECT_DIR$/src/JCodes/Maths/MathToold.java" />
-        <option value="$PROJECT_DIR$/src/JCodes/Permutations/Permutations.java" />
         <option value="$PROJECT_DIR$/src/JCodes/Maths/ncrWithoutDp.java" />
         <option value="$PROJECT_DIR$/src/JCodes/Maths/nprWithoutDp.java" />
         <option value="$PROJECT_DIR$/src/JCodes/Maths/MillerRabin.java" />
         <option value="$PROJECT_DIR$/src/JCodes/Maths/ModularInverse.java" />
-        <option value="$PROJECT_DIR$/src/JCodes/Maths/MathTools.java" />
         <option value="$PROJECT_DIR$/src/JCodes/Stack/NextGreaterElement.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/Permutations/NextGreaterNumber.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/misc/Nmap.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/misc/NavMap.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/Permutations/Permutations.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/Maths/MathTools.java" />
+        <option value="$PROJECT_DIR$/src/tasks/codes/DSwords.java" />
+        <option value="$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/ShortestPath.java" />
+        <option value="$PROJECT_DIR$/src/tasks/codes/LeetCode.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="524" />
+    <option name="x" value="327" />
+    <option name="y" value="-9" />
+    <option name="width" value="979" />
+    <option name="height" value="525" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -197,6 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,7 +217,29 @@
               <item name="TasksAndAlgos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="JCodes" type="462c0819:PsiDirectoryNode" />
-              <item name="Stack" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TasksAndAlgos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TasksAndAlgos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JCodes" type="462c0819:PsiDirectoryNode" />
+              <item name="graphs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TasksAndAlgos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TasksAndAlgos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JCodes" type="462c0819:PsiDirectoryNode" />
+              <item name="graphs" type="462c0819:PsiDirectoryNode" />
+              <item name="BaseObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TasksAndAlgos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TasksAndAlgos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JCodes" type="462c0819:PsiDirectoryNode" />
+              <item name="Permutations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TasksAndAlgos" type="b2602c69:ProjectViewProjectNode" />
@@ -243,7 +251,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -255,20 +262,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="JCodes.graphs" />
+      <recent name="JCodes.LeetCode" />
+      <recent name="java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Semester 7\PLACEMENTS\TasksAndAlgos\c++" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Semester 7\PLACEMENTS\TasksAndAlgos\src\tasks\codes\ABC141" />
       <recent name="E:\Semester 7\PLACEMENTS\TasksAndAlgos\src\tasks\codes\ABC125" />
       <recent name="E:\Semester 7\PLACEMENTS\TasksAndAlgos\src\tasks\codes\ABC126" />
       <recent name="E:\Semester 7\PLACEMENTS\TasksAndAlgos\src\tasks\codes\ABC135" />
       <recent name="E:\Semester 7\PLACEMENTS\TasksAndAlgos\src\tasks\codes\ABC140" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Semester 7\PLACEMENTS\TasksAndAlgos\c++" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="JCodes.graphs" />
-      <recent name="JCodes.LeetCode" />
-      <recent name="java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -283,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Task.E - Who Says a Pun?">
+  <component name="RunManager" selected="Task.LeetCode">
     <configuration name="MaxReach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JCodes.DP.MaxReach" />
       <module name="TasksAndAlgos" />
@@ -297,12 +304,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JCodes.LeetCode.Solution" />
+    <configuration name="NavMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JCodes.misc.NavMap" />
       <module name="TasksAndAlgos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JCodes.LeetCode.*" />
+          <option name="PATTERN" value="JCodes.misc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,12 +317,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JCodes.LeetCode.Solution2" />
+    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JCodes.Permutations.Permutations" />
       <module name="TasksAndAlgos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JCodes.LeetCode.*" />
+          <option name="PATTERN" value="JCodes.Permutations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,6 +369,7 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="A - Changing a Character" type="Task" factoryName="Task">
@@ -378,11 +386,13 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="A - Harmony" type="Task" factoryName="Task">
       <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -416,11 +426,13 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="A - Weather Prediction" type="Task" factoryName="Task">
       <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -440,6 +452,7 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="A. Yellow Cards" type="Task" factoryName="Task">
@@ -450,11 +463,13 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="B - 0 or 1 Swap" type="Task" factoryName="Task">
       <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -488,6 +503,7 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="B - Resale" type="Task" factoryName="Task">
@@ -503,11 +519,13 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="B - Tap Dance" type="Task" factoryName="Task">
       <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -532,6 +550,7 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="B. The Number of Products" type="Task" factoryName="Task">
@@ -542,11 +561,13 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="Bob and Subarray" type="Task" factoryName="Task">
       <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -573,11 +594,13 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="C - City Savers" type="Task" factoryName="Task">
       <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -606,11 +629,13 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="C - GCD on Blackboard" type="Task" factoryName="Task">
       <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -642,6 +667,7 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="C. Swap Letters" type="Task" factoryName="Task">
@@ -652,11 +678,13 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="Chef Designed a Network" type="Task" factoryName="Task">
       <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -689,11 +717,13 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="D - Even Relation" type="Task" factoryName="Task">
       <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -726,11 +756,13 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="D - Flipping Signs" type="Task" factoryName="Task">
       <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -754,11 +786,13 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="D - Various Sushi" type="Task" factoryName="Task">
       <taskConf />
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -796,6 +830,13 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="D. Swords" type="Task" factoryName="Task">
+      <taskConf>src/tasks/codes/D. Swords.json</taskConf>
+      <method v="2">
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="E - Who Says a Pun?" type="Task" factoryName="Task">
@@ -806,11 +847,13 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="LeetCode" type="Task" factoryName="Task">
       <taskConf>src/tasks/codes/LeetCode.json</taskConf>
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -843,15 +886,16 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Permutations" />
+        <item itemvalue="Application.NavMap" />
         <item itemvalue="Application.upper_bound" />
         <item itemvalue="Application.MaxReach" />
         <item itemvalue="Application.ncr" />
-        <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -881,7 +925,8 @@
       <workItem from="1569037540162" duration="11563000" />
       <workItem from="1569071697529" duration="8025000" />
       <workItem from="1569145831210" duration="4896000" />
-      <workItem from="1569247685538" duration="2106000" />
+      <workItem from="1569247685538" duration="9057000" />
+      <workItem from="1569383722571" duration="7835000" />
     </task>
     <task id="LOCAL-00001" summary="minor force push">
       <created>1567838036339</created>
@@ -999,13 +1044,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101365000" />
+    <option name="totallyTimeSpent" value="116151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2261745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19127516" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1013,7 +1058,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.329429" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.38945827" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4612006" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -1111,51 +1156,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/ACards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/AYellowCards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/ABC125/ABiscuitGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/BTheNumberOfProducts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/codes/CSwapLetters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/DP/ZAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JCodes/DP/lcs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1173,7 +1173,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/generics/PairGenericWithComparator.java">
+    <entry file="file://$PROJECT_DIR$/src/JCodes/generics/GenericPair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
@@ -1215,13 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/output/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="22" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -1316,13 +1309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/Dijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -1344,47 +1330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/BellmanFord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/BellmanGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/CycleInDirectedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1395,27 +1340,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/BinarySearch/lower_bound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/BinarySearch/upper_bound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/generics/IntPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/BinarySearch/lower_bound.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCodes/BinarySearch/upper_bound.java" />
     <entry file="file://$PROJECT_DIR$/src/JCodes/generics/LongPair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1433,84 +1359,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/ModularPower.java">
+    <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/ModularPower.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/factorial.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/ncrWithoutDp.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/nprWithoutDp.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/MillerRabin.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/ModularInverse.java" />
+    <entry file="file://$PROJECT_DIR$/src/JCodes/Permutations/NextGreaterNumber.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Long.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/factorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/ncrWithoutDp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/nprWithoutDp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/MillerRabin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/ModularInverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/MathTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="e#1641#1642#0" expanded="true" />
-            <element signature="e#1697#1698#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/Permutations/Permutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JCodes/BinarySearch/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="118" column="18" lean-forward="true" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
+        <state relative-caret-position="17">
+          <caret line="1148" column="23" selection-start-line="1148" selection-start-column="23" selection-end-line="1148" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JCodes/Trie/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="969">
           <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JCodes/Stack/NextGreaterElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        <state relative-caret-position="969">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/misc/NavMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/output/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1236">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/BinarySearch/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="118" column="18" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/codes/DSwords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/Permutations/Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2817#2818#0" expanded="true" />
+            <element signature="e#2851#2852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/Maths/MathTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/Dijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/BellmanGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/BellmanFord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/generics/IntPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/ShortestPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JCodes/graphs/BaseObjects/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/codes/LeetCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
         </state>
       </provider>
     </entry>

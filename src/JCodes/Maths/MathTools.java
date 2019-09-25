@@ -4,6 +4,31 @@ import java.util.Random;
 
 public class MathTools {
     final long mod = (long) (1e18 + 7);
+
+    public static long gcd(long a , long b) {
+        while(a != 0 && b != 0) {
+            if(a > b) {
+                a %= b;
+            }
+            else {
+                b %= a;
+            }
+        }
+
+        return Math.max(a , b);
+    }
+    public static int gcd(int a , int b) {
+        while(a != 0 && b != 0) {
+            if(a > b) {
+                a %= b;
+            }
+            else {
+                b %= a;
+            }
+        }
+
+        return Math.max(a , b);
+    }
     public static long [] factorial(long n, long mod) {
 
         long [] fac = new long [(int) n + 1];

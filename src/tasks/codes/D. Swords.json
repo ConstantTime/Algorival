@@ -1,0 +1,49 @@
+{
+  "name" : "D. Swords",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n3 12 6\n",
+    "output" : "5 3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\n2 9\n",
+    "output" : "1 7\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "7\n2 1000000000 4 6 8 4 2\n",
+    "output" : "2999999987 2\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "6\n13 52 0 13 26 52\n",
+    "output" : "12 13\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/tasks/codes",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "tasks.codes.DSwords",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.09.25",
+  "contestName" : "Codeforces Round #587 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "tasks.fastIO.InputReader",
+  "outputClass" : "tasks.fastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
