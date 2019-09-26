@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68db5b80-14f8-4160-922f-73a4159deafe" name="Default Changelist" comment="No of Ways with k leaps">
-      <change afterPath="$PROJECT_DIR$/src/JCodes/Strings/ValidIPOrNot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c++/LeetCode ALgorithms/HammingDistance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/c++/LeetCode ALgorithms/HammingDistance.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c++/LeetCode ALgorithms/IsomorphicStrings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/c++/LeetCode ALgorithms/IsomorphicStrings.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="68db5b80-14f8-4160-922f-73a4159deafe" name="Default Changelist" comment="No of Ways with k leaps" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/JCodes/Strings/ValidIPOrNot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-133">
-              <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -1008,7 +1003,7 @@
       <workItem from="1569247685538" duration="9057000" />
       <workItem from="1569383722571" duration="8070000" />
       <workItem from="1569487737865" duration="566000" />
-      <workItem from="1569516924485" duration="1016000" />
+      <workItem from="1569516924485" duration="1635000" />
     </task>
     <task id="LOCAL-00001" summary="minor force push">
       <created>1567838036339</created>
@@ -1126,7 +1121,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117968000" />
+    <option name="totallyTimeSpent" value="118587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1569,7 +1564,7 @@
     <entry file="file://$PROJECT_DIR$/src/JCodes/Strings/ValidIPOrNot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-133">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
