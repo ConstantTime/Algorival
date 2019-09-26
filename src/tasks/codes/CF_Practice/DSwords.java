@@ -1,4 +1,4 @@
-package tasks.codes;
+package tasks.codes.CF_Practice;
 
 import JCodes.Maths.MathTools;
 import tasks.fastIO.InputReader;

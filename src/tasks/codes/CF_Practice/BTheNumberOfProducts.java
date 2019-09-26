@@ -1,4 +1,4 @@
-package tasks.codes;
+package tasks.codes.CF_Practice;
 
 import tasks.fastIO.InputReader;
 import tasks.fastIO.OutputWriter;

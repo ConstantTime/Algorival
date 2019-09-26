@@ -16,8 +16,19 @@ const ld pi = 3.1415926535;
 
 class Solution {
 public:
-    int numSubmatrixSumTarget(vector<vector<int>>& matrix, int target) {
-        
+    int singleNumber(vector<int>& arr) {
+        int n = arr.size();
+        int common = 0;
+        int ones = 0;
+        int twos = 0;
+        rep(i , 0 , n - 1) {
+            twos = twos | (ones & arr[i]);  
+            ones = ones ^ arr[i];  
+            common = ~(ones & twos);  
+            ones &= common;  
+            twos &= common;
+        }
+        return ones;
     }
 };
 

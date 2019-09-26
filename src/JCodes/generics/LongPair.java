@@ -5,11 +5,11 @@ public class LongPair {
     public long first;
     public long second;
 
-    LongPair() {
+    public LongPair() {
 
     }
 
-    LongPair(long first , long second) {
+    public LongPair(long first , long second) {
         this.first = first;
         this.second = second;
     }

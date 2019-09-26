@@ -1,0 +1,34 @@
+{
+  "name" : "C. Perfect Team",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6\n1 1 1\n3 6 0\n0 0 0\n0 1 1\n10 1 10\n4 4 1\n",
+    "output" : "1\n3\n0\n0\n1\n3\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/tasks/codes",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "tasks.codes.CPerfectTeam",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.09.26",
+  "contestName" : "Educational Codeforces Round 73 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "tasks.fastIO.InputReader",
+  "outputClass" : "tasks.fastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

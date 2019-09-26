@@ -20,69 +20,29 @@ public class Main {
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         OutputWriter out = new OutputWriter(outputStream);
-        DSwords solver = new DSwords();
+        CPerfectTeam solver = new CPerfectTeam();
         solver.solve(1, in, out);
         out.close();
     }
 
-    static class DSwords {
+    static class CPerfectTeam {
         public void solve(int testNumber, InputReader in, OutputWriter out) {
-
-            int n = in.nextInt();
-            int[] a = in.nextIntArray(n);
-            long sum = 0;
-
-            for (int j : a) sum += j;
-
-            int maxi = -1;
-
-            for (int j : a) {
-                if (j > maxi) maxi = j;
-            }
-
-            int g = maxi - a[0];
-            for (int i = 1; i < n; i++) {
-                g = MathTools.gcd(g, maxi - a[i]);
-            }
-
-            long ans = 0;
-            ans = maxi;
-            ans *= n;
-            ans -= sum;
-            ans /= g;
-
-            out.println(ans + " " + g);
-        }
-
-    }
-
-    static class OutputWriter {
-        private final PrintWriter writer;
-
-        public OutputWriter(OutputStream outputStream) {
-            writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(outputStream)));
-        }
-
-        public OutputWriter(Writer writer) {
-            this.writer = new PrintWriter(writer);
-        }
-
-        public void print(Object... objects) {
-            for (int i = 0; i < objects.length; i++) {
-                if (i != 0) {
-                    writer.print(' ');
+            int q = in.nextInt();
+            for (int pp = 1; pp <= q; pp++) {
+                int c, m, x;
+                c = in.nextInt();
+                m = in.nextInt();
+                x = in.nextInt();
+                if (c > m) {
+                    int temp = c;
+                    c = m;
+                    m = temp;
                 }
-                writer.print(objects[i]);
+                int lef = m - c;
+                int people = lef + x;
+                int teams = Math.min(c, (people + 2 * c) / 3);
+                out.println(teams);
             }
-        }
-
-        public void println(Object... objects) {
-            print(objects);
-            writer.println();
-        }
-
-        public void close() {
-            writer.close();
         }
 
     }
@@ -149,12 +109,6 @@ public class Main {
             return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
         }
 
-        public int[] nextIntArray(int n) {
-            int[] array = new int[n];
-            for (int i = 0; i < n; ++i) array[i] = nextInt();
-            return array;
-        }
-
         public interface SpaceCharFilter {
             public boolean isSpaceChar(int ch);
 
@@ -162,17 +116,23 @@ public class Main {
 
     }
 
-    static class MathTools {
-        public static int gcd(int a, int b) {
-            while (a != 0 && b != 0) {
-                if (a > b) {
-                    a %= b;
-                } else {
-                    b %= a;
-                }
-            }
+    static class OutputWriter {
+        private final PrintWriter writer;
 
-            return Math.max(a, b);
+        public OutputWriter(OutputStream outputStream) {
+            writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(outputStream)));
+        }
+
+        public OutputWriter(Writer writer) {
+            this.writer = new PrintWriter(writer);
+        }
+
+        public void close() {
+            writer.close();
+        }
+
+        public void println(int i) {
+            writer.println(i);
         }
 
     }

@@ -1,2 +1,2 @@
-30 src/tasks/codes/D. Swords.json
+36 src/tasks/codes/C. Perfect Team.json
 0
