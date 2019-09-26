@@ -39,7 +39,7 @@ public:
                 check[j.second] = j.first;
             }
             else {
-                if(check.find(j.second) != j.first) flag = false;
+                if(check[j.second] != j.first) flag = false;
             }
         }    
 

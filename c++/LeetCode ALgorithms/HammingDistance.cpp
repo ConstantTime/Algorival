@@ -14,7 +14,6 @@ const ll mod = 1e18 + 7;
 const ld eps = 1e-6;
 const ld pi = 3.1415926535;
 
-
 string convert(int x) {
     string s = "";
     while(x != 0) {
