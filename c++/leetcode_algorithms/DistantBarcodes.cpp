@@ -18,6 +18,7 @@ class Solution {
 public:
     vector<int> rearrangeBarcodes(vector<int>& a) {
         int n = a.size();
+        if(n <= 2) return a;
         map < int , int > ans;
         for(auto j : a) ans[j]++;
         vector < pair < int , int > > res;
@@ -25,7 +26,26 @@ public:
             res.push_back({j.second , j.first});   
         }
         sort(res.begin() , res.end() , greater < pair < int , int > >());
-        
+        vector < int > A(n, -1);
+        // for(auto j : res) {
+        //     cout << j.first << " " << j.second << endl;
+        // }
+        int index = 0;
+        rep(i , 0 , res.size() - 1) {
+            while(index <= n - 1 && res[i].first != 0) {
+                A[index] = res[i].second;
+                res[i].first--;
+                index += 2;
+            }
+            if(res[i].first == 0) continue;
+            index = 1;
+            while(index <= n - 1 && res[i].first != 0) {
+                A[index] = res[i].second;
+                res[i].first--;
+                index += 2;
+            }
+        }
+        return A;
     }
 };
 
