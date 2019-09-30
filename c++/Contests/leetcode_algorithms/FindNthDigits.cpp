@@ -16,31 +16,30 @@ const ld pi = 3.1415926535;
 
 class Solution {
 public:
-    int numRescueBoats(vector<int>& people, int limit) {
-      int n = people.size();
-      int l = 0;
-      int r = n - 1;
-      int cnt = 0;
-      int num = 0;
-      sort(people.begin(), people.end());
-      while(cnt != n && l <= r) {
-        if(l == r) {
-          num++;
-          break;
+    int findNthDigit(int n) {
+        if(n <= 9) return n;
+        ll base = 9;
+        ll digits = 1;
+        ll start = 1;
+        ll end = 9;
+        while(n - base * digits > 0) {
+            start *= 10;
+            end *= 10;
+            n -= base * digits;
+            digits++;
+            base *= 10;
         }
-        if(people[l] + people[r] <= limit) {
-          num++;
-          cnt += 2;
-          l++;
-          r--;
+
+        ll exp = start + (n - 1) / digits;
+        vector < int > a;
+
+        while(exp != 0) {
+            a.push_back(exp % 10);
+            exp /= 10;
         }
-        else {
-          num++;
-          cnt++;
-          r--;
-        }
-      } 
-      return num;     
+
+        reverse(a.begin() , a.end());
+        return a[(n - 1) % digits];
     }
 };
 

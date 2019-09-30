@@ -6,6 +6,7 @@ import JCodes.graphs.BaseObjects.Node;
 import tasks.fastIO.InputReader;
 import tasks.fastIO.OutputWriter;
 
+import java.math.BigInteger;
 import java.util.*;
 
 public class LeetCode {
@@ -75,6 +76,12 @@ public class LeetCode {
 
         ans = dist[dst];
         return ans;
+    }
+
+    public String multiply(String num1, String num2) {
+        BigInteger a = new BigInteger(num1);
+        BigInteger b = new BigInteger(num2);
+        return String.valueOf(a.multiply(b));
     }
 
     static class IntPair {

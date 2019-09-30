@@ -4,24 +4,31 @@ using namespace std;
  
 typedef long long ll;
 typedef long double ld;
-typedef pair < int , pair < int , int > > mp;
-
 #define rep(i , j , n) for(long long i = j ; i <= n ; i++)
 #define per(i , j , n) for(long long i = j ; i >= n ; i--)
  
-const ll N = 153456;
-const ll mod = 1e18 + 7;
+const ll N = 3534567;
+const ll mod = 1e9 + 7;
 const ld eps = 1e-6;
 const ld pi = 3.1415926535;
-
-
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
  
     cout << fixed << setprecision(12);
 
-   
-    
+    int n;
+    cin >> n;
+
+    int cnt = 0;
+    double ans = n;
+
+    rep(i , 1 , n) {
+        if(i % 2 != 0) {
+            cnt++;
+        }
+    }
+
+    cout << (ld)cnt / ans << endl;
     return 0;
 }
