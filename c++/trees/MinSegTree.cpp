@@ -12,17 +12,16 @@ void min_build(long long t, long long i, long long j) {
 	min_build(t * 2 + 1, mid + 1, j);
 	min_seg[t] = min_combine(min_seg[2*t], min_seg[2*t+1]);
 }
-void min_update(long long t, long long i, long long j, long long x, long long y) {
-	if (i > y || j < x) {
-		return ;
-	}
+void min_update(long long t, long long i, long long j, long long x, long long y) {	
 	if (i == j) {
 		min_seg[t] = y;
 		return ;
 	}
 	long long mid = (i + j) / 2;
-	min_update(t * 2, i, mid, x, y);
-	min_update(t * 2 + 1, mid + 1, j, x, y);
+	if(x <= mid)
+		min_update(t * 2, i, mid, x, y);
+	else 
+		min_update(t * 2 + 1, mid + 1, j, x, y);
 	min_seg[t] = min_combine(min_seg[2*t], min_seg[2*t+1]);
 }
 long long min_query(long long t, long long i, long long j, long long l, long long r) {

@@ -20,7 +20,7 @@ bool comp(pair < int , int > a , pair < int , int > b) {
 }
 class Solution {
 public:
-    vector < int > MaxFromOneArray(vector < int > a , int k) {
+    vector < int > MaxFromOneArray(vector < int > &a , int k) {
         vector < int > ans;
         int n = a.size();
         if(k == 0 || n == 0) return ans;
@@ -52,7 +52,7 @@ public:
         }
         return ans;
     }
-    vector < int > merge(vector < int > a , vector < int > b) {
+    vector < int > merge(vector < int > &a , vector < int > &b) {
         int m = a.size();
         int n = b.size();
         int i = 0;
@@ -61,13 +61,37 @@ public:
         if(m == 0) return b;
         if(n == 0) return a;
         while(i < m && j < n) {
-            if(a[i] >= b[j]) {
+            if(a[i] > b[j]) {
                 ans.push_back(a[i]);
                 i++;
             }
-            else {
+            else if(a[i] < b[j]) {
                 ans.push_back(b[j]);
                 j++;
+            }
+            else {
+                int one = i;
+                int two = j;
+
+                while(one < a.size() && two < b.size() && a[one] == b[two]) {
+                    one++;
+                    two++;
+                }
+                if(two == b.size()) {
+                    ans.push_back(a[i]);
+                    i++;
+                } 
+                else if(one == a.size()) {
+                    ans.push_back(b[j]);
+                }
+                else if(a[one] > b[two]) {
+                    ans.push_back(a[i]);
+                    i++;
+                }
+                else {
+                    ans.push_back(b[j]);
+                    j++;
+                }
             }
         }
         if(i != m) {
@@ -93,15 +117,15 @@ public:
             if(A.size() + B.size() == k) {
                 res = merge(A , B);
                 ans.push_back(res);
-                cout << i << " iiiii " << endl;
-                for(auto j : A) {
-                    cout << j << " ";
-                }
-                cout << endl;
-                for(auto j : B) {
-                    cout << j << " ";
-                }
-                cout << endl;
+                // cout << i << " iiiii " << endl;
+                // for(auto j : A) {
+                //     cout << j << " ";
+                // }
+                // cout << endl;
+                // for(auto j : B) {
+                //     cout << j << " ";
+                // }
+                // cout << endl;
             }
         }
         sort(ans.begin() , ans.end());

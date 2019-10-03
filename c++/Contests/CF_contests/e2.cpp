@@ -20,6 +20,6 @@ int main() {
  
     cout << fixed << setprecision(12);
 
-
+    
     return 0;
 }

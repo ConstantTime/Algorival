@@ -2,7 +2,6 @@
  
 using namespace std;
  
- 
 typedef long long ll;
 typedef long double ld;
 typedef pair < int , pair < int , int > > mp;
@@ -17,16 +16,19 @@ const ld pi = 3.1415926535;
 
 class Solution {
 public:
-    int integerBreak(int n) {
-        if(n == 2) return 1;
-        if(n == 3) return 2;
-        int p = 1;
-        while(n > 4) {
-            p *= 3;
-            n -= 3;
+    int findLongestChain(vector<vector<int>>& a) {
+        int n = a.size();
+        int lis[n];
+        fill(lis , lis + n , 1);
+        sort(a.begin(), a.end());
+        rep(i , 1 , n - 1) {
+        	rep(j , 0 , i - 1) {
+        		if(a[j][1] < a[i][0]) {
+        			lis[i] = max(lis[i] , 1 + lis[j]);
+        		}
+        	}
         }
-        p *= n;
-        return p;
+        return lis[n - 1];
     }
 };
 
