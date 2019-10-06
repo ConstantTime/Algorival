@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
  
 using namespace std;
-
+ 
 typedef long long ll;
 typedef long double ld;
 typedef pair < int , pair < int , int > > mp;
@@ -16,17 +16,25 @@ const ld pi = 3.1415926535;
 
 class Solution {
 public:
-    int majorityElement(vector<int>& a) {
-        int n = a.size();
-        int cnt = 0;
-        int can = -1;
-        for(int j : a) {
-            if(cnt == 0) can = j;
-            cnt += (j == can) ? 1 : -1;
-        }
-        return can;
+    int subarrayBitwiseORs(vector<int>& a) {
+  		unordered_map < int , int > ans , cur;
+  		cur[0]++;
+  		for(auto j : a) {
+  			unordered_map < int , int > temp;
+  			for(auto i : cur) {
+                int k = (i.first | j);
+  				temp[k]++;
+  			}
+  			temp[j]++;
+  			cur = temp;
+  			for(auto k : cur) {
+  				ans[k.first]++;
+  			}
+  		}
+  		return ans.size();
     }
 };
+
 
 int main() {
     ios_base::sync_with_stdio(false);
@@ -36,3 +44,4 @@ int main() {
 
     return 0;
 }
+	

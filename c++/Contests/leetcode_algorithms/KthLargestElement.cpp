@@ -13,38 +13,24 @@ const ll mod = 1e9 + 7;
 const ld eps = 1e-6;
 const ld pi = 3.1415926535;
 
-class KthLargest {
+class Solution {
 public:
-    priority_queue < int , vector < int > , 
-    greater < int > > a;
-    int k;
-    KthLargest(int k, vector<int>& nums) {
-        for(auto j : nums) a.push(j);
-        this -> k = k;
-    }
-    
-    int add(int val) {
-        // priority_queue < int , vector < int > , 
-        // greater < int > > b = a;
-        // while(!b.empty()) {
-        //     cout << b.top() << " ";
-        //     b.pop();
-        // }
-        // cout << endl;
-        
-        a.push(val);
-        while(a.size() > k) {
-            a.pop();
+    int findKthLargest(vector<int>& a, int k) {
+        int n = a.size();
+        if(n == 0) return 0;
+        priority_queue < int , vector < int > , 
+         greater < int > > q;
+
+        rep(i , 0 , n - 1) {
+            q.push(a[i]);
+            if(q.size() > k) {
+                q.pop();
+            }
         }
-        return a.top();
+
+        return q.top();
     }
 };
-
-/**
- * Your KthLargest object will be instantiated and called as such:
- * KthLargest* obj = new KthLargest(k, nums);
- * int param_1 = obj->add(val);
- */
 
 int main() {
     ios_base::sync_with_stdio(false);

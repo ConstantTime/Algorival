@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
- 
 using namespace std;
 
 typedef long long ll;
@@ -9,22 +8,30 @@ typedef pair < int , pair < int , int > > mp;
 #define rep(i , j , n) for(long long i = j ; i <= n ; i++)
 #define per(i , j , n) for(long long i = j ; i >= n ; i--)
  
-const ll N = 3534567;
-const ll mod = 1e9 + 7;
+const long long N = 1534567;
+const long long mod = 1e9 + 7;
 const ld eps = 1e-6;
 const ld pi = 3.1415926535;
 
 class Solution {
 public:
-    int majorityElement(vector<int>& a) {
+    int countTriplets(vector<int>& a) {
         int n = a.size();
-        int cnt = 0;
-        int can = -1;
-        for(int j : a) {
-            if(cnt == 0) can = j;
-            cnt += (j == can) ? 1 : -1;
+        unordered_map < int , int > res;
+        for(auto j : a) {
+            for(auto i : a) {
+                res[(i & j)]++;
+            }
         }
-        return can;
+        int cnt = 0;
+        for(auto j : a) {
+            for(auto i : res) {
+                if((j & i.first) == 0) {
+                    cnt += i.second;
+                }
+            }
+        }
+        return cnt;
     }
 };
 
@@ -33,6 +40,5 @@ int main() {
     cin.tie(NULL);
  
     cout << fixed << setprecision(12);
-
     return 0;
 }
