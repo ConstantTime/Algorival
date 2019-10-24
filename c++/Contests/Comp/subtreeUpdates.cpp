@@ -17,8 +17,8 @@ int n;
 int parent[N];
 vector < int > v[N];
 int a[N];
-int segtree[SN];
-bool lazy[SN];
+int segtree[N];
+bool lazy[N];
 int tin[N];
 int tout[N];
 int rev[N];
@@ -48,34 +48,40 @@ void build(int l , int r , int node){
 }
 inline void push(int l , int r , int node){
     if(lazy[node]){
-        segtree[node] = (r - l + 1) * segtree[node];
+        segtree[node] += (r - l + 1) * segtree[node];
         if(l != r){
-            lazy[node + node] += lazy[node]
-            lazy[node + node + 1] += laze[node];
+            lazy[node + node] += lazy[node];
+            lazy[node + node + 1] += lazy[node];
         }
         lazy[node] = 0;
     }
 }
-void update(int l , int r , int node , int ql , int qr , int x){
-    push(l , r , node);
-    if(l > qr || r < ql){
-        return;
-    }
-    if(l >= ql && r <= qr){
-        lazy[node] += (r - l + 1) * x;
-        push(l , r , node);
-        return;
+void update(int l , int r , int node , int ql , int x){
+    // push(l , r , node);
+    // if(l > qr || r < ql){
+    //     return;
+    // }
+    // if(l >= ql && r <= qr){
+    //     lazy[node] += (r - l + 1) * x;
+    //     push(l , r , node);
+    //     return;
+    // }
+    if(l == r) {
+        segtree[node] += x;
+        return ;
     }
     int mid = l + r >> 1;
-    update(l , mid , node + node , ql , qr);
-    update(mid + 1 , r , node + node + 1 , ql , qr);
+    if(x <= mid)
+        update(l , mid , node + node , ql , x);
+    else
+        update(mid + 1 , r , node + node + 1 , ql , x);
     segtree[node] = combine(segtree[node + node] , segtree[node + node + 1]);
 }
-void update(int ql , int qr , int val){
-    update(1 , n , 1 , ql , qr , val);
+void update(int ql , int val){
+    update(1 , n , 1 , ql , val);
 }
 int query(int l , int r , int node , int ql , int qr){
-    push(l , r , node);
+    //push(l , r , node);
     if(l > qr || r < ql){
         return 0;
     }
@@ -91,6 +97,8 @@ int query(int ql , int qr){
     return query(1 , n , 1 , ql , qr);
 }
 
+int ant[N];
+
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -105,7 +113,42 @@ int main() {
         int x , y;
         cin >> x >> y;
         v[x].push_back(y);
-        v[y].push_back(x);
+        parent[y] = x;
+    }
+
+    dfs(1);
+
+//  PRINT OPEN ******************************************
+    rep(i , 1 , n) cout << tin[i] << " " ;
+    cout << endl;
+    rep(i , 1 , n) {
+        cout << tout[i] << " ";
+    }
+    cout << endl;
+    rep(i , 1 , timer) {
+        cout << rev[i] << " " ; 
+        ant[rev[i]] = i;
+    }
+    cout << endl;
+//  PRINT CLOSE *****************************************
+
+    build(1 , n , 1);
+    int q;
+    cin >> q;
+    rep(i , 1 , q) {
+        int t;
+        cin >> t;
+
+        if(t == 1) {
+            int x , y;
+            cin >> x >> y;
+            update(ant[x] , y);
+            continue;
+        }
+        int x ;
+        cin >> x;
+
+        cout << query(tin[x] , tout[x]) << endl;
     }
     return 0;
 }

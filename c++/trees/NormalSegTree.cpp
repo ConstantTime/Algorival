@@ -1,6 +1,6 @@
 long long seg[4 * N];
 long long combine(long long &a, long long &b) {
-	return max(a , b);
+	return a + b;
 }
 void update(long long t, long long i, long long j) {
 	if (i == j) {

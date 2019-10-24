@@ -1,13 +1,11 @@
 int n;
 int parent[N];
 vector < int > v[N];
-int arr[N];
-int segtree[SN];
-bool lazy[SN];
 int tin[N];
 int tout[N];
 int rev[N];
 int timer;
+
 void dfs(int node){
     tin[node] = ++timer;
     rev[timer] = node;
@@ -16,6 +14,10 @@ void dfs(int node){
     }
     tout[node] = timer;
 }
+
+int arr[N];
+int segtree[N];
+bool lazy[N];
 int combine(int &a, int &b) {
     return a + b;
 }
