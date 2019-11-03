@@ -1,11 +1,9 @@
 #include <bits/stdc++.h>
  
 using namespace std;
- 
+
 typedef long long ll;
 typedef long double ld;
-typedef pair < int , pair < int , int > > mp;
-
 #define rep(i , j , n) for(long long i = j ; i <= n ; i++)
 #define per(i , j , n) for(long long i = j ; i >= n ; i--)
  
@@ -13,18 +11,22 @@ const ll N = 153456;
 const ll mod = 1e9 + 7;
 const ld eps = 1e-6;
 const ld pi = 3.1415926535;
-
 class Solution {
 public:
-    int numWays(int n, int k) {
-        int f[n];
-        f[0] = 1;
-        f[1] = k;
-        for(int i = 2 ; i < n ; i++) {
-            f[i] = (k - 1) * (f[i - 1] + f[i - 2]);
+    int maxProduct(vector<int>& a) {
+        int n = a.size();
+        int l = a[0];
+        int r = a[0];
+        int temp = a[0];
+        rep(i , 1 , n - 1) {
+            if(a[i] < 0) {
+                swap(l , r);
+            }
+            l = min(a[i] , l * a[i]);
+            r = max(a[i] , r * a[i]);
+            temp = max(temp , r);
         }
-
-        return k * f[n - 1];
+        return temp;
     }
 };
 
@@ -33,10 +35,8 @@ int main() {
     cin.tie(NULL);
  
     cout << fixed << setprecision(12);
-        
-    cin >> a;
 
-    cout << longestPalindrome(a) << endl;
-
+   
+    
     return 0;
 }

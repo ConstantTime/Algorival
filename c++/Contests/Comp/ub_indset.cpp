@@ -14,29 +14,43 @@ const ll mod = 1e9 + 7;
 const ld eps = 1e-6;
 const ld pi = 3.1415926535;
 
-class Solution {
-public:
-    int numWays(int n, int k) {
-        int f[n];
-        f[0] = 1;
-        f[1] = k;
-        for(int i = 2 ; i < n ; i++) {
-            f[i] = (k - 1) * (f[i - 1] + f[i - 2]);
+int n;
+int m;
+int dp[N];
+vector < int > a[N];
+
+void dfs(int s , int par) {
+    int sz = 0;
+    int sum = 0;
+    for(auto j : a[s]) {
+        if(j != par) {
+            sz++;
+            dfs(j);
+            sum += dp[j];
         }
-
-        return k * f[n - 1];
     }
-};
-
+    if(sz == 0) {
+        dp[s] = 1;
+        return ;
+    }
+    int inc = 1;
+    
+}
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
  
     cout << fixed << setprecision(12);
-        
-    cin >> a;
 
-    cout << longestPalindrome(a) << endl;
+    cin >> n;
 
+    rep(i , 1 , n - 1) {
+        int x, y;
+        cin >> x >> y;
+        a[x].push_back(y);
+        a[y].push_back(x);
+    }
+
+    dfs(1 , 0);
     return 0;
 }

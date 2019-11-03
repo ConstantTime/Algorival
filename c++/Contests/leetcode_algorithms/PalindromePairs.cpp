@@ -47,7 +47,6 @@ public:
         }
 
         rep(i , 0 , n - 1) {
-
             for(int j = 0 ; j < words[i].length() ; j++){
               //  cout << j << " f" << endl;
                 string lef = words[i].substr(0 , j);
@@ -56,7 +55,7 @@ public:
                     a[lef] != i) {
                     ans.push_back({i , a[lef]});
                 }
-                else if (a.find(rig) != a.end() && palin(lef) && 
+                if (a.find(rig) != a.end() && palin(lef) && 
                     a[rig] != i) {
                     ans.push_back({a[rig] , i});
                 }

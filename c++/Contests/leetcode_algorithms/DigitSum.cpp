@@ -16,21 +16,23 @@ const ld pi = 3.1415926535;
 
 class Solution {
 public:
-    int shortestDistance(vector<vector<int>>& a) {
-        int n = a.size();
-        int m = a[0].size();
-        auto total = a;
-        int delta [] = {0 , 1 , 0 , -1 , 0};
-        int mini = 0;
-        rep(i , 0 , n - 1) {
-            rep(j , 0 , m - 1) {
-                if(a[i][j] == 1) {
-                    mini = -1;
-                    queue < pair < int , int > > q;
-                    q.push({i , j});
-                }
-            }
+    int count(int value , int d) {
+        int cnt = 0;
+
+        for(int j = 1 ; j <= value ; j *= 10) {
+            int div = j * 10;
+            int q = value / div;
+            cnt += q * j;
+            if(d == 0) cnt -= j;
+            int rem = value % div;
+            cnt += min(max(rem - d * j + 1 , 0) , j);
         }
+
+        return cnt;
+    }
+    int digitsCount(int d, int low, int high) {
+        if(d < 0 || high < 0) return 0;
+        return count(high , d) - count(low - 1 , d);
     }
 };
 

@@ -16,24 +16,25 @@ const ld pi = 3.1415926535;
 
 class Solution {
 public:
-    int dp[123456][3];
-    int minCost(vector<vector<int>>& a) {
+    int minCostII(vector<vector<int>>& a) {
+        
         int n = a.size();
         if(n == 0) return 0;
-        int m = a[0].size();
-        rep(i , 0 , n + 1) {
-            rep(j , 0 , 2) dp[i][j] = 0;
+        int K = a[0].size();
+        int dp[n + 1][K + 1];
+        rep(i , 0 , n ) {
+            rep(j , 0 , K) dp[i][j] = 0;
         }
 
-        rep(i , 0 , 2) {
+        rep(i , 0 , K) {
             dp[0][i] = a[0][i];
         }
 
         rep(i , 1 , n - 1) {
-            rep(j , 0 , 2) {
+            rep(j , 0 , K) {
                 dp[i][j] = a[i][j];
                 int res = INT_MAX;
-                rep(k , 0 , 2) {
+                rep(k , 0 , K) {
                     if(j == k) continue;
                     res = min(res , dp[i - 1][k]);
                 }
@@ -41,7 +42,13 @@ public:
             }
         }
 
-        return min(dp[n - 1][0] , min(dp[n - 1][1] , dp[n - 1][2]));
+        int ans = INT_MAX;
+        rep(i , 0 , K - 1) {
+            ans = min(ans , dp[n - 1][i]);
+        }
+
+        return ans;
+                
     }
 };
 

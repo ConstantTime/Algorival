@@ -32,7 +32,7 @@ struct res {
 		covCamera = b;
 		covNoCamera = c;
 	}
-};
+};  
 class Solution {
 public:
     res solve(TreeNode * root) {
